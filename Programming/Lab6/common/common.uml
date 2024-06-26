@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>C:/Users/aleks/IdeaProjects/lab6/common</OriginalElement>
+  <nodes>
+    <node x="-46.75" y="-14.0">common.commands.ICommand</node>
+    <node x="35.0" y="142.0">common.commands.HelpCommand</node>
+    <node x="-170.0" y="653.0">common.transfer.Request</node>
+    <node x="343.0" y="288.0">common.ui.CommandReader</node>
+    <node x="-170.0" y="434.0">common.collection.LocationFrom</node>
+    <node x="32.0" y="434.0">common.ui.RouteReader</node>
+    <node x="250.0" y="361.0">common.validators.RouteValidator</node>
+    <node x="192.0" y="507.0">common.parsers.NumParser</node>
+    <node x="-13.0" y="653.0">common.parsers.Parser</node>
+    <node x="224.0" y="434.0">common.collection.Coordinates</node>
+    <node x="-170.0" y="288.0">common.exception.ScriptFormatException</node>
+    <node x="102.0" y="288.0">common.managers.CommandManager</node>
+    <node x="-170.0" y="361.0">common.validators.SelectValidator</node>
+    <node x="-170.0" y="215.0">common.exception.WrongNumberOfArgumentsException</node>
+    <node x="165.0" y="580.0">common.validators.Validator</node>
+    <node x="131.0" y="653.0">common.collection.Route</node>
+    <node x="0.0" y="580.0">common.parsers.Serializer</node>
+    <node x="215.0" y="215.0">common.exception.CommandNotFoundException</node>
+    <node x="329.0" y="580.0">common.ui.Console</node>
+    <node x="270.0" y="653.0">build</node>
+    <node x="-44.75" y="64.0">common.commands.Command</node>
+    <node x="-170.0" y="580.0">common.ui.UserInput</node>
+    <node x="-170.0" y="142.0">common.commands.HistoryCommand</node>
+    <node x="12.0" y="507.0">common.parsers.DateParser</node>
+    <node x="414.0" y="434.0">common.ui.RouteAsker</node>
+    <node x="-170.0" y="507.0">common.collection.LocationTo</node>
+    <node x="371.0" y="507.0">common.transfer.Response</node>
+    <node x="41.0" y="361.0">common.validators.ScriptValidator</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="common.commands.HistoryCommand" target="common.commands.Command" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="-77.5" y="117.0" />
+      <point x="19.75" y="117.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="common.commands.HelpCommand" target="common.commands.Command" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="117.0" y="117.0" />
+      <point x="19.75" y="117.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="common.commands.Command" target="common.commands.ICommand" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="191.0" y="333.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

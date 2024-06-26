@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+}
+
+group = 'commmon'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation group: 'com.opencsv', name: 'opencsv', version: '5.2'
+}
+
+test {
+    useJUnitPlatform()
+}

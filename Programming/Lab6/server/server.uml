@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>C:/Users/aleks/IdeaProjects/lab6/server</OriginalElement>
+  <nodes>
+    <node x="-181.0" y="137.0">server.managers.CollectionManager</node>
+    <node x="-181.0" y="64.0">server.commands.ClearCommand</node>
+    <node x="1540.0" y="64.0">server.commands.RemoveByIdCommand</node>
+    <node x="8.0" y="64.0">server.commands.AddIfMinCommand</node>
+    <node x="2240.0" y="64.0">server.commands.RemoveGreaterCommand</node>
+    <node x="993.0" y="64.0">server.commands.ShowCommand</node>
+    <node x="1185.0" y="64.0">server.commands.GroupCountingByDistanceCommand</node>
+    <node x="788.0" y="64.0">server.commands.UpdateCommand</node>
+    <node x="1208.0" y="137.0">build</node>
+    <node x="990.0" y="-14.0">server.commands.ServerCommand</node>
+    <node x="1340.0" y="137.0">server.Main</node>
+    <node x="406.0" y="64.0">server.commands.PrintFieldDescendingDistanceCommand</node>
+    <node x="875.0" y="137.0">server.managers.FileManager</node>
+    <node x="1064.0" y="137.0">server.modules.Server</node>
+    <node x="226.0" y="64.0">server.commands.AddCommand</node>
+    <node x="679.0" y="137.0">server.managers.CSVOperator</node>
+    <node x="270.0" y="137.0">server.exception.ClientInterrupt</node>
+    <node x="1963.0" y="64.0">server.commands.PrintDescendingCommand</node>
+    <node x="59.0" y="137.0">server.commands.SaveCommand</node>
+    <node x="1784.0" y="64.0">server.commands.InfoCommand</node>
+    <node x="476.0" y="137.0">server.commands.ExitCommand</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="server.commands.RemoveByIdCommand" target="server.commands.ServerCommand" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="1652.0" y="39.0" />
+      <point x="1079.0" y="39.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="server.commands.UpdateCommand" target="server.commands.ServerCommand" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="880.5" y="39.0" />
+      <point x="1079.0" y="39.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="server.commands.AddIfMinCommand" target="server.commands.ServerCommand" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="107.0" y="39.0" />
+      <point x="1079.0" y="39.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="server.commands.InfoCommand" target="server.commands.ServerCommand" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="1863.5" y="39.0" />
+      <point x="1079.0" y="39.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="server.commands.GroupCountingByDistanceCommand" target="server.commands.ServerCommand" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="1352.5" y="39.0" />
+      <point x="1079.0" y="39.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="server.commands.ShowCommand" target="server.commands.ServerCommand" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="server.commands.AddCommand" target="server.commands.ServerCommand" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="306.0" y="39.0" />
+      <point x="1079.0" y="39.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="server.commands.PrintDescendingCommand" target="server.commands.ServerCommand" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="2091.5" y="39.0" />
+      <point x="1079.0" y="39.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="server.commands.RemoveGreaterCommand" target="server.commands.ServerCommand" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="2363.5" y="39.0" />
+      <point x="1079.0" y="39.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="server.commands.PrintFieldDescendingDistanceCommand" target="server.commands.ServerCommand" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="587.0" y="39.0" />
+      <point x="1079.0" y="39.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="server.commands.ClearCommand" target="server.commands.ServerCommand" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="-96.5" y="39.0" />
+      <point x="1079.0" y="39.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.5587797619047619" showDependencies="false" x="1153.0" y="75.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

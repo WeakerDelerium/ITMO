@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>C:/Users/aleks/IdeaProjects/lab7/client</OriginalElement>
+  <nodes>
+    <node x="568.0" y="215.0">build</node>
+    <node x="832.0" y="215.0">client.managers.User</node>
+    <node x="-181.0" y="215.0">client.commands.ExecuteScriptCommand</node>
+    <node x="365.0" y="215.0">client.commands.ExitCommand</node>
+    <node x="2010.0" y="64.0">client.commands.ShowCommand</node>
+    <node x="700.0" y="215.0">client.Main</node>
+    <node x="1831.0" y="64.0">client.commands.InfoCommand</node>
+    <node x="484.0" y="142.0">client.commands.UpdateCommand</node>
+    <node x="266.0" y="142.0">client.commands.AddIfMinCommand</node>
+    <node x="384.0" y="64.0">client.commands.GroupCountingByDistanceCommand</node>
+    <node x="739.0" y="64.0">client.commands.RemoveByIdCommand</node>
+    <node x="983.0" y="64.0">client.commands.ClearCommand</node>
+    <node x="167.0" y="64.0">client.commands.ComplexCommand</node>
+    <node x="1449.0" y="64.0">client.commands.PrintFieldDescendingDistanceCommand</node>
+    <node x="86.0" y="142.0">client.commands.AddCommand</node>
+    <node x="-181.0" y="142.0">client.commands.RemoveGreaterCommand</node>
+    <node x="1101.5" y="-14.0">client.commands.UserCommand</node>
+    <node x="1172.0" y="64.0">client.commands.PrintDescendingCommand</node>
+    <node x="99.0" y="215.0">client.managers.AuthorizationManager</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="client.commands.GroupCountingByDistanceCommand" target="client.commands.UserCommand" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="551.5" y="39.0" />
+      <point x="1184.0" y="39.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="client.commands.RemoveGreaterCommand" target="client.commands.ComplexCommand" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="-57.5" y="117.0" />
+      <point x="265.5" y="117.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="client.commands.PrintFieldDescendingDistanceCommand" target="client.commands.UserCommand" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="1630.0" y="39.0" />
+      <point x="1184.0" y="39.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="client.commands.ShowCommand" target="client.commands.UserCommand" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="2096.0" y="39.0" />
+      <point x="1184.0" y="39.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="client.commands.ClearCommand" target="client.commands.UserCommand" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="1067.5" y="39.0" />
+      <point x="1184.0" y="39.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="client.commands.InfoCommand" target="client.commands.UserCommand" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="1910.5" y="39.0" />
+      <point x="1184.0" y="39.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="client.commands.AddIfMinCommand" target="client.commands.ComplexCommand" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="365.0" y="117.0" />
+      <point x="265.5" y="117.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="client.commands.UpdateCommand" target="client.commands.ComplexCommand" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="576.5" y="117.0" />
+      <point x="265.5" y="117.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="client.commands.ComplexCommand" target="client.commands.UserCommand" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="265.5" y="39.0" />
+      <point x="1184.0" y="39.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="client.commands.PrintDescendingCommand" target="client.commands.UserCommand" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="1300.5" y="39.0" />
+      <point x="1184.0" y="39.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="client.commands.RemoveByIdCommand" target="client.commands.UserCommand" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="851.0" y="39.0" />
+      <point x="1184.0" y="39.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="client.commands.AddCommand" target="client.commands.ComplexCommand" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="166.0" y="117.0" />
+      <point x="265.5" y="117.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.6026017624842636" showDependencies="false" x="1000.5" y="114.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

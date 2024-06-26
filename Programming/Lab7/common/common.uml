@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>C:/Users/aleks/IdeaProjects/lab7/common</OriginalElement>
+  <nodes>
+    <node x="90.0" y="293.0">common.exception.MatchingUsernamesException</node>
+    <node x="215.0" y="366.0">common.exception.CommandNotFoundException</node>
+    <node x="490.0" y="585.0">common.validators.ScriptValidator</node>
+    <node x="99.5" y="215.0">common.exception.UserAuthorizationException</node>
+    <node x="395.0" y="731.0">common.collection.LocationTo</node>
+    <node x="-57.25" y="-14.0">common.commands.ICommand</node>
+    <node x="-170.0" y="731.0">common.ui.RouteBuilder</node>
+    <node x="14.0" y="142.0">common.commands.HistoryCommand</node>
+    <node x="57.0" y="585.0">common.util.SHA224Hashing</node>
+    <node x="212.0" y="731.0">common.ui.RouteAsker</node>
+    <node x="335.0" y="512.0">common.ui.CommandReader</node>
+    <node x="-170.0" y="366.0">common.exception.WrongNumberOfArgumentsException</node>
+    <node x="38.0" y="658.0">common.transfer.CommandInfo</node>
+    <node x="314.0" y="877.0">common.transfer.Request</node>
+    <node x="412.0" y="439.0">common.validators.AuthorizationValidator</node>
+    <node x="185.0" y="804.0">common.transfer.Response</node>
+    <node x="-170.0" y="585.0">common.util.PropertiesReader</node>
+    <node x="444.0" y="658.0">common.transfer.RequestTask</node>
+    <node x="396.0" y="293.0">common.exception.WrongPasswordException</node>
+    <node x="615.0" y="877.0">common.collection.Route</node>
+    <node x="356.0" y="804.0">common.ui.UserInput</node>
+    <node x="-170.0" y="439.0">common.util.RandomSequenceGenerator</node>
+    <node x="94.0" y="512.0">common.managers.CommandManager</node>
+    <node x="526.0" y="804.0">common.parsers.Serializer</node>
+    <node x="471.0" y="877.0">common.parsers.Parser</node>
+    <node x="-170.0" y="950.0">build</node>
+    <node x="-170.0" y="877.0">common.validators.Validator</node>
+    <node x="-170.0" y="804.0">common.parsers.NumParser</node>
+    <node x="-170.0" y="512.0">common.exception.UserAccessException</node>
+    <node x="-170.0" y="658.0">common.validators.RouteValidator</node>
+    <node x="279.0" y="585.0">common.validators.SelectValidator</node>
+    <node x="155.0" y="877.0">common.ui.Console</node>
+    <node x="577.0" y="731.0">common.parsers.DateParser</node>
+    <node x="-55.25" y="64.0">common.commands.Command</node>
+    <node x="9.0" y="804.0">common.util.Constants</node>
+    <node x="242.0" y="658.0">common.collection.LocationFrom</node>
+    <node x="-170.0" y="293.0">common.exception.UserNotFoundException</node>
+    <node x="-170.0" y="142.0">common.commands.HelpCommand</node>
+    <node x="-6.0" y="877.0">common.transfer.UserInfo</node>
+    <node x="22.0" y="731.0">common.collection.Coordinates</node>
+    <node x="140.0" y="439.0">common.exception.ScriptFormatException</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="common.exception.MatchingUsernamesException" target="common.exception.UserAuthorizationException" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="common.commands.HistoryCommand" target="common.commands.Command" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="106.5" y="117.0" />
+      <point x="9.25" y="117.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="common.exception.UserNotFoundException" target="common.exception.UserAuthorizationException" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="-50.0" y="268.0" />
+      <point x="233.0" y="268.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="common.exception.WrongPasswordException" target="common.exception.UserAuthorizationException" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="523.0" y="268.0" />
+      <point x="233.0" y="268.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="common.commands.HelpCommand" target="common.commands.Command" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="-88.0" y="117.0" />
+      <point x="9.25" y="117.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="common.commands.Command" target="common.commands.ICommand" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.900197628458498" showDependencies="false" x="271.0" y="482.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

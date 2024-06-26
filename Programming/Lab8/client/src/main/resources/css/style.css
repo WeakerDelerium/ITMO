@@ -1,0 +1,225 @@
+.bg {
+    -fx-padding: 0;
+    -fx-border-width: 0;
+    -fx-background-color: #000000;
+}
+
+.bg .scroll-bar:vertical {
+    -fx-pref-width: 10px;
+    -fx-background-color: rgba(255, 0, 153, 0.25);
+}
+
+.bg .scroll-bar:vertical .thumb {
+    -fx-pref-width: 10px;
+    -fx-background-color: rgba(255, 0, 153);
+}
+
+.bg .scroll-bar:vertical .increment-button,
+.bg .scroll-bar:vertical .decrement-button {
+    -fx-background-color: transparent;
+}
+
+.start-bg {
+    -fx-background-image: url(/images/start-bg.png);
+}
+
+.lang-bg {
+    -fx-background-image: url(/images/lang-bg.png);
+}
+
+.authorization-bg {
+    -fx-background-image: url(/images/authorization-bg.png);
+}
+
+.main-bg {
+    -fx-background-image: url(/images/main-bg.png);
+}
+
+.form-bg {
+    -fx-background-image: url(/images/form-bg.png);
+}
+
+.visualize-bg {
+    -fx-background-image: url(/images/visualize-bg.png);
+}
+
+.commands-bg {
+    -fx-background-image: url(/images/commands-bg.png);
+}
+
+.death-bg {
+    -fx-background-image: url(/images/death-bg.png);
+}
+
+.heading-based {
+    -fx-text-fill: #ffffff;
+    -fx-font-family: 'Ruslan Display';
+    -fx-font-size: 75px;
+    -fx-font-weight: 400;
+}
+
+.txt-based, .txt-small, .txt-avg, .txt-upper, .txt-huge {
+    -fx-text-fill: #ffffff;
+    -fx-font-family: 'Oxanium';
+    -fx-font-size: 32px;
+    -fx-font-weight: 500;
+}
+
+.txt-small {
+    -fx-font-size: 20px;
+}
+
+.txt-avg {
+    -fx-font-size: 40px;
+}
+
+.txt-upper {
+    -fx-font-size: 50px;
+}
+
+.txt-huge {
+    -fx-font-size: 250px;
+}
+
+.text-wp-gradient {
+    -fx-text-fill: linear-gradient(to right, rgb(255, 255, 255),rgb(255, 100, 193),rgb(255, 0, 153));
+}
+
+.btn-based {
+    -fx-background-color: rgb(255, 0, 153);
+    -fx-border-radius: 29px;
+    -fx-background-radius: 29px;
+    -fx-effect: dropshadow(gaussian, rgba(255, 0, 153), 30, 0, 0, 0);
+}
+
+.btn-gradient {
+    -fx-background-color: linear-gradient(from 75% 25% to 25% 75%, rgb(112, 0, 255) -6.405%, rgb(255, 0, 153) 96.651%);
+    -fx-border-width: 4px;
+    -fx-border-style: solid;
+    -fx-border-color: #ffffff;
+    -fx-effect: dropshadow(gaussian, rgba(255, 255, 255, 0.5), 30, 0, 0, 0);
+}
+
+.input-based {
+    -fx-text-fill: #000000;
+    -fx-border-radius: 25px;
+    -fx-background-radius: 25px;
+    -fx-prompt-text-fill: rgba(0, 0, 0, 0.51);
+}
+
+.input-based:focused {
+    -fx-focus-color: rgb(255, 0, 153);
+    -fx-effect: dropshadow(gaussian, rgba(255, 0, 153), 20, 0, 0, 0);
+}
+
+.combo-box-based {
+    -fx-border-width: 1px;
+    -fx-border-style: solid;
+    -fx-border-color: #000000;
+    -fx-border-radius: 14px;
+    -fx-background-radius: 14px;
+    -fx-background-color: rgba(0, 0, 0, 0.5);
+}
+
+.table-based {
+    -fx-border-width: 4px;
+    -fx-border-style: solid;
+    -fx-border-color: rgba(255, 0, 153, 0.5);
+}
+
+.table-based.table-view {
+    -fx-border-radius: 30px;
+    -fx-background-radius: 30px;
+    -fx-background-color: rgba(0, 0, 0, 0.5);
+}
+
+.table-based .column-header,
+.table-based .column-header-background,
+.table-based .table-row-cell,
+.table-based .table-cell {
+    -fx-background-color: transparent;
+}
+
+.table-based .table-row-cell:selected {
+    -fx-background-color: rgba(255, 0, 153, 0.25);
+}
+
+.table-based .column-header .label,
+.table-based .table-cell {
+    -fx-text-fill: #ffffff;
+}
+
+.table-border {
+    -fx-border-width: 0px 4px 4px 0px;
+    -fx-border-color: rgba(255, 0, 153, 0.5);
+}
+
+.placeholder-table {
+    -fx-text-fill: rgb(255, 0, 153);
+}
+
+.icon-btn {
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center;
+    -fx-background-size: 94px 94px;
+    -fx-border: none;
+    -fx-background-color: transparent;
+    -fx-background-radius: 22px;
+    -fx-padding: 0;
+}
+
+.icon-lang-btn {
+    -fx-background-image: url(/images/set-lang.png);
+}
+
+.icon-return-btn {
+    -fx-background-image: url(/images/return.png);
+}
+
+.icon-log-out {
+    -fx-background-image: url(/images/log-out.png);
+}
+
+.lang-btn, .authorization-btn {
+    -fx-border-radius: 25px;
+    -fx-background-radius: 25px;
+}
+
+.lang-btn {
+    -fx-text-fill: #000000;
+    -fx-background-color: #ffffff;
+}
+
+.route {
+    -fx-shape: "M23.11 0L16.35 0C13.91 0 11.72 1.53 10.91 3.82L0.27 33.7C0.09 34.23 0 34.78 0 35.34C0 38.04 2.21 40.25 4.92 40.25L23.11 40.25L23.11 34.5C23.11 32.9 24.4 31.62 26 31.62C27.59 31.62 28.88 32.9 28.88 34.5L28.88 40.25L47.07 40.25C49.79 40.25 52 38.04 52 35.34C52 34.78 51.9 34.23 51.72 33.7L41.08 3.82C40.26 1.53 38.08 0 35.64 0L28.88 0L28.88 5.75C28.88 7.34 27.59 8.62 26 8.62C24.4 8.62 23.11 7.34 23.11 5.75L23.11 0ZM28.88 17.25L28.88 23C28.88 24.59 27.59 25.87 26 25.87C24.4 25.87 23.11 24.59 23.11 23L23.11 17.25C23.11 15.65 24.4 14.37 26 14.37C27.59 14.37 28.88 15.65 28.88 17.25Z";
+    -fx-background-color: #ffffff;
+}
+
+.main-delete-btn {
+    -fx-background-color: rgb(112, 0, 255);
+    -fx-effect: dropshadow(gaussian, rgba(112, 0, 255), 30, 0, 0, 0);
+}
+
+.combo-box-based .list-cell {
+    -fx-text-fill: #ffffff;
+}
+
+.combo-box-based .combo-box-popup .list-view, .tooltip-based {
+    -fx-background-color: rgba(0, 0, 0, 0.8);
+    -fx-control-inner-background: transparent;
+}
+
+.combo-box-based .combo-box-popup .list-cell:filled:selected,
+.combo-box-based .combo-box-popup .list-cell:filled:hover {
+    -fx-background-color: rgba(255, 0, 153, 0.5);
+    -fx-text-fill: white;
+}
+
+.tooltip-based {
+    -fx-font-size: 14px;
+}
+
+
+.error {
+    -fx-text-fill: rgb(255, 0, 153);
+}

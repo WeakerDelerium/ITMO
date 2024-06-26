@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<ScrollPane prefWidth="1920.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.FXControllers.DeathController" fitToWidth="true" fitToHeight="true" hbarPolicy="NEVER" styleClass="bg">
+   <AnchorPane fx:id="deathScreen" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0">
+      <children>
+         <Label fx:id="smile" layoutX="431.0" layoutY="383.0" text=":(" />
+         <Label fx:id="error" layoutX="649.0" layoutY="490.0" text="Unexpected error while running the program,&#10;try again later" />
+      </children>
+   </AnchorPane>
+</ScrollPane>

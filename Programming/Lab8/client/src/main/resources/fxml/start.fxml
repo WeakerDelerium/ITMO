@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<ScrollPane prefWidth="1920.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.FXControllers.StartController" fitToWidth="true" fitToHeight="true" hbarPolicy="NEVER" styleClass="bg">
+   <AnchorPane fx:id="startScreen" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0">
+      <children>
+         <Button fx:id="langBtn" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" layoutX="1766.0" layoutY="60.0" prefHeight="94.0" prefWidth="94.0" styleClass="icon-btn" onAction="#goLangScreen"/>
+         <Label fx:id="heading" alignment="CENTER" layoutX="110.0" layoutY="490.0" prefWidth="740.0" text="GET STARTED" styleClass="heading-based" />
+         <Button fx:id="logInBtn" alignment="CENTER" layoutX="110.0" layoutY="646.0" mnemonicParsing="false" prefHeight="73.0" prefWidth="350.0" onAction="#goLogInScreen" />
+         <Button fx:id="signUpBtn" alignment="CENTER" layoutX="500.0" layoutY="646.0" mnemonicParsing="false" prefHeight="73.0" prefWidth="350.0" onAction="#goSingUpScreen" />
+      </children>
+   </AnchorPane>
+</ScrollPane>

@@ -1,0 +1,14 @@
+.scroll-bar .increment-button,
+.scroll-bar .decrement-button {
+    -fx-padding: 0;
+    -fx-background-color: transparent;
+}
+
+.scroll-bar .increment-arrow,
+.scroll-bar .decrement-arrow {
+    -fx-padding: 0;
+    -fx-shape: "";
+    -fx-background-color: transparent;
+    -fx-opacity: 0;
+    -fx-background-insets: 0;
+}

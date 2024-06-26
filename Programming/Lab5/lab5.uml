@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>C:/Users/aleks/IdeaProjects/lab5/src/main</OriginalElement>
+  <nodes>
+    <node x="1045.0" y="297.0">managers.CollectionManager</node>
+    <node x="1030.5" y="144.0">commands.ExitCommand</node>
+    <node x="204.0" y="297.0">exception.CommandNotFoundException</node>
+    <node x="674.5" y="144.0">commands.GroupCountingByDistanceCommand</node>
+    <node x="1839.5" y="144.0">commands.Modifiable</node>
+    <node x="1345.0" y="370.0">Main</node>
+    <node x="1867.5208333333335" y="224.0">commands.RemoveGreaterCommand</node>
+    <node x="1400.5" y="144.0">commands.HelpCommand</node>
+    <node x="1989.5" y="144.0">commands.HistoryCommand</node>
+    <node x="2558.0" y="297.0">managers.CSVOperator</node>
+    <node x="488.5" y="144.0">commands.SaveCommand</node>
+    <node x="2194.5" y="144.0">commands.InfoCommand</node>
+    <node x="-181.0" y="297.0">exception.WrongNumberOfArgumentsException</node>
+    <node x="1584.5" y="144.0">commands.ExecuteScriptCommand</node>
+    <node x="532.0" y="297.0">exception.ScriptFormatException</node>
+    <node x="2449.270833333333" y="144.0">commands.ComplexCommand</node>
+    <node x="-181.0" y="370.0">collection.Coordinates</node>
+    <node x="198.0" y="370.0">collection.LocationTo</node>
+    <node x="560.0" y="370.0">parsers.NumParser</node>
+    <node x="2356.0" y="297.0">collection.LocationFrom</node>
+    <node x="1206.0" y="370.0">collection.Route</node>
+    <node x="106.5" y="144.0">commands.PrintFieldDescendingDistanceCommand</node>
+    <node x="293.42824074074065" y="224.0">commands.ClearCommand</node>
+    <node x="1942.0" y="297.0">validators.RouteValidator</node>
+    <node x="1497.388888888889" y="224.0">commands.RemoveByIdCommand</node>
+    <node x="1522.0" y="297.0">validators.SelectValidator</node>
+    <node x="2339.520833333333" y="224.0">commands.AddIfMinCommand</node>
+    <node x="2557.520833333333" y="224.0">commands.AddCommand</node>
+    <node x="2150.0" y="297.0">managers.RouteManager</node>
+    <node x="1063.3958333333335" y="-14.0">commands.ICommand</node>
+    <node x="9.0" y="370.0">managers.FileManager</node>
+    <node x="2134.5208333333335" y="224.0">commands.UpdateCommand</node>
+    <node x="-170.5" y="144.0">commands.PrintDescendingCommand</node>
+    <node x="804.0" y="297.0">managers.CommandManager</node>
+    <node x="1065.3958333333335" y="64.0">commands.Command</node>
+    <node x="1208.5" y="144.0">commands.ShowCommand</node>
+    <node x="739.0" y="370.0">validators.Validator</node>
+    <node x="1285.0" y="297.0">managers.UserInputManager</node>
+    <node x="1733.0" y="297.0">validators.ScriptValidator</node>
+    <node x="1062.0" y="370.0">parsers.Parser</node>
+    <node x="380.0" y="370.0">parsers.DateParser</node>
+    <node x="903.0" y="370.0">managers.Console</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="commands.AddIfMinCommand" target="commands.ComplexCommand" relationship="GENERALIZATION">
+      <point x="49.5" y="-14.0" />
+      <point x="2488.020833333333" y="193.0" />
+      <point x="2547.770833333333" y="193.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="commands.Command" target="commands.ICommand" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="commands.AddCommand" target="commands.ComplexCommand" relationship="GENERALIZATION">
+      <point x="40.0" y="-14.0" />
+      <point x="2677.520833333333" y="193.0" />
+      <point x="2547.770833333333" y="193.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="commands.PrintFieldDescendingDistanceCommand" target="commands.Command" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="287.5" y="118.0" />
+      <point x="1129.8958333333335" y="118.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="commands.ExecuteScriptCommand" target="commands.Command" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="1702.0" y="118.0" />
+      <point x="1129.8958333333335" y="118.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="commands.RemoveByIdCommand" target="commands.Command" relationship="GENERALIZATION">
+      <point x="-56.0" y="-14.0" />
+      <point x="1553.388888888889" y="193.0" />
+      <point x="1020.0" y="193.0" />
+      <point x="1020.0" y="118.0" />
+      <point x="1129.8958333333335" y="118.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="commands.AddIfMinCommand" target="commands.Modifiable" relationship="REALIZATION">
+      <point x="-49.5" y="-14.0" />
+      <point x="2389.020833333333" y="203.0" />
+      <point x="1904.5" y="203.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="commands.HistoryCommand" target="commands.Command" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="2082.0" y="118.0" />
+      <point x="1129.8958333333335" y="118.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="commands.InfoCommand" target="commands.Command" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="2274.0" y="118.0" />
+      <point x="1129.8958333333335" y="118.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="commands.SaveCommand" target="commands.Command" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="571.5" y="118.0" />
+      <point x="1129.8958333333335" y="118.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="commands.AddCommand" target="commands.Modifiable" relationship="REALIZATION">
+      <point x="-40.0" y="-14.0" />
+      <point x="2597.520833333333" y="203.0" />
+      <point x="1904.5" y="203.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="commands.RemoveGreaterCommand" target="commands.Modifiable" relationship="REALIZATION">
+      <point x="-61.75" y="-14.0" />
+      <point x="1929.2708333333335" y="203.0" />
+      <point x="1904.5" y="203.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="commands.UpdateCommand" target="commands.Modifiable" relationship="REALIZATION">
+      <point x="-46.25" y="-14.0" />
+      <point x="2180.7708333333335" y="203.0" />
+      <point x="1904.5" y="203.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="commands.HelpCommand" target="commands.Command" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="1482.5" y="118.0" />
+      <point x="1129.8958333333335" y="118.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="commands.RemoveByIdCommand" target="commands.Modifiable" relationship="REALIZATION">
+      <point x="56.0" y="-14.0" />
+      <point x="1665.388888888889" y="203.0" />
+      <point x="1904.5" y="203.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="commands.GroupCountingByDistanceCommand" target="commands.Command" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="842.0" y="118.0" />
+      <point x="1129.8958333333335" y="118.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="commands.ShowCommand" target="commands.Command" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="1294.5" y="118.0" />
+      <point x="1129.8958333333335" y="118.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="commands.PrintDescendingCommand" target="commands.Command" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="-42.0" y="118.0" />
+      <point x="1129.8958333333335" y="118.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="commands.ClearCommand" target="commands.Modifiable" relationship="REALIZATION">
+      <point x="42.25" y="-14.0" />
+      <point x="420.17824074074065" y="203.0" />
+      <point x="1904.5" y="203.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="commands.ExitCommand" target="commands.Command" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="1109.5" y="118.0" />
+      <point x="1129.8958333333335" y="118.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="commands.RemoveGreaterCommand" target="commands.ComplexCommand" relationship="GENERALIZATION">
+      <point x="61.75" y="-14.0" />
+      <point x="2052.7708333333335" y="193.0" />
+      <point x="2547.770833333333" y="193.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="commands.UpdateCommand" target="commands.ComplexCommand" relationship="GENERALIZATION">
+      <point x="46.25" y="-14.0" />
+      <point x="2273.2708333333335" y="193.0" />
+      <point x="2547.770833333333" y="193.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="commands.ClearCommand" target="commands.Command" relationship="GENERALIZATION">
+      <point x="-42.25" y="-14.0" />
+      <point x="335.67824074074065" y="203.0" />
+      <point x="-181.0" y="203.0" />
+      <point x="-181.0" y="118.0" />
+      <point x="1129.8958333333335" y="118.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="commands.ComplexCommand" target="commands.Command" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="2547.770833333333" y="118.0" />
+      <point x="1129.8958333333335" y="118.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.5241521068859198" showDependencies="false" x="1278.5" y="202.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

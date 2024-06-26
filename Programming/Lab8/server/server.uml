@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>C:/Users/aleks/IdeaProjects/lab8/server</OriginalElement>
+  <nodes>
+    <node x="46.0" y="283.0">server.thread.ThreadExecutor</node>
+    <node x="226.0" y="137.0">server.exec.WrongNumberOfArgumentsException</node>
+    <node x="429.0" y="356.0">server.managers.ServerLogger</node>
+    <node x="-181.0" y="356.0">server.commands.InfoCommand</node>
+    <node x="263.0" y="283.0">server.commands.ShowCommand</node>
+    <node x="-181.0" y="429.0">server.ui.UserInput</node>
+    <node x="-181.0" y="283.0">server.ui.CommandReader</node>
+    <node x="813.0" y="356.0">server.DB.DBQueries</node>
+    <node x="317.0" y="429.0">server.managers.Server</node>
+    <node x="689.0" y="64.0">server.commands.ClearCommand</node>
+    <node x="878.0" y="64.0">server.commands.RemoveByIdCommand</node>
+    <node x="746.0" y="210.0">server.managers.CollectionManager</node>
+    <node x="-11.0" y="429.0">server.DB.DBAttach</node>
+    <node x="907.0" y="283.0">server.commands.HelpCommand</node>
+    <node x="484.0" y="64.0">server.commands.UpdateCommand</node>
+    <node x="480.0" y="210.0">server.managers.AuthorizationManager</node>
+    <node x="-181.0" y="137.0">server.commands.PrintFieldDescendingDistanceCommand</node>
+    <node x="158.0" y="429.0">server.ui.Console</node>
+    <node x="-1.0" y="64.0">server.commands.RemoveGreaterCommand</node>
+    <node x="23.0" y="356.0">server.commands.ExitCommand</node>
+    <node x="381.75" y="-14.0">server.commands.ServerCommand</node>
+    <node x="266.0" y="64.0">server.commands.AddIfMinCommand</node>
+    <node x="697.0" y="283.0">server.thread.RequestReader</node>
+    <node x="611.0" y="137.0">server.commands.GroupCountingByDistanceCommand</node>
+    <node x="-181.0" y="64.0">server.commands.AddCommand</node>
+    <node x="226.0" y="356.0">server.thread.RequestWriter</node>
+    <node x="461.0" y="429.0">build</node>
+    <node x="-181.0" y="210.0">server.exec.CommandNotSupportedException</node>
+    <node x="593.0" y="429.0">server.Main</node>
+    <node x="480.0" y="283.0">server.thread.RequestHandler</node>
+    <node x="627.0" y="356.0">server.DB.DBExecutor</node>
+    <node x="178.0" y="210.0">server.commands.PrintDescendingCommand</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="server.commands.RemoveByIdCommand" target="server.commands.ServerCommand" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="990.0" y="39.0" />
+      <point x="470.75" y="39.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="server.commands.UpdateCommand" target="server.commands.ServerCommand" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="576.5" y="39.0" />
+      <point x="470.75" y="39.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="server.commands.AddIfMinCommand" target="server.commands.ServerCommand" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="365.0" y="39.0" />
+      <point x="470.75" y="39.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="server.commands.AddCommand" target="server.commands.ServerCommand" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="-101.0" y="39.0" />
+      <point x="470.75" y="39.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="server.commands.RemoveGreaterCommand" target="server.commands.ServerCommand" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="122.5" y="39.0" />
+      <point x="470.75" y="39.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="server.commands.ClearCommand" target="server.commands.ServerCommand" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="773.5" y="39.0" />
+      <point x="470.75" y="39.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.6377590176515733" showDependencies="false" x="460.5" y="221.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

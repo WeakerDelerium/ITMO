@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>C:/Users/aleks/IdeaProjects/lab8/common</OriginalElement>
+  <nodes>
+    <node x="205.0" y="502.0">common.parsers.Serializer</node>
+    <node x="34.0" y="502.0">common.transfer.Response</node>
+    <node x="52.0" y="356.0">common.ui.RouteBuilder</node>
+    <node x="-140.0" y="64.0">common.commands.Command</node>
+    <node x="176.0" y="575.0">common.parsers.Parser</node>
+    <node x="-142.0" y="-14.0">common.commands.ICommand</node>
+    <node x="19.0" y="575.0">common.transfer.Request</node>
+    <node x="36.0" y="-14.0">common.exec.CommandNotFoundException</node>
+    <node x="307.0" y="210.0">common.validators.SelectValidator</node>
+    <node x="85.0" y="210.0">common.util.SHA224Hashing</node>
+    <node x="244.0" y="356.0">common.collection.Coordinates</node>
+    <node x="-142.0" y="575.0">common.transfer.UserInfo</node>
+    <node x="40.0" y="429.0">common.parsers.DateParser</node>
+    <node x="270.0" y="283.0">common.collection.LocationFrom</node>
+    <node x="-142.0" y="137.0">common.util.RandomSequenceGenerator</node>
+    <node x="459.0" y="575.0">build</node>
+    <node x="66.0" y="283.0">common.transfer.CommandInfo</node>
+    <node x="320.0" y="575.0">common.collection.Route</node>
+    <node x="399.0" y="429.0">common.transfer.TagCarrier</node>
+    <node x="-142.0" y="283.0">common.validators.RouteValidator</node>
+    <node x="370.0" y="502.0">common.validators.Validator</node>
+    <node x="-142.0" y="356.0">common.transfer.RequestTask</node>
+    <node x="-142.0" y="502.0">common.util.Constants</node>
+    <node x="220.0" y="429.0">common.parsers.NumParser</node>
+    <node x="-142.0" y="210.0">common.util.PropertiesReader</node>
+    <node x="168.0" y="137.0">common.managers.CommandManager</node>
+    <node x="-142.0" y="429.0">common.collection.LocationTo</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="common.commands.Command" target="common.commands.ICommand" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="202.0" y="294.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

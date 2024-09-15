@@ -1,0 +1,4330 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-09-15T13:28:48.565283106Z</date>
+  <millis>1726406928565</millis>
+  <nanos>283106</nanos>
+  <sequence>0</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server started</message>
+</record>
+<record>
+  <date>2024-09-15T13:29:09.668595375Z</date>
+  <millis>1726406949668</millis>
+  <nanos>595375</nanos>
+  <sequence>1</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T13:29:09.686314694Z</date>
+  <millis>1726406949686</millis>
+  <nanos>314694</nanos>
+  <sequence>2</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T13:29:32.814102477Z</date>
+  <millis>1726406972814</millis>
+  <nanos>102477</nanos>
+  <sequence>3</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T13:29:32.814845552Z</date>
+  <millis>1726406972814</millis>
+  <nanos>845552</nanos>
+  <sequence>4</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T13:30:38.765845769Z</date>
+  <millis>1726407038765</millis>
+  <nanos>845769</nanos>
+  <sequence>5</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T13:30:38.766591989Z</date>
+  <millis>1726407038766</millis>
+  <nanos>591989</nanos>
+  <sequence>6</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T13:30:46.085174972Z</date>
+  <millis>1726407046085</millis>
+  <nanos>174972</nanos>
+  <sequence>7</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T13:30:46.085848005Z</date>
+  <millis>1726407046085</millis>
+  <nanos>848005</nanos>
+  <sequence>8</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-09-15T13:41:45.961426551Z</date>
+  <millis>1726407705961</millis>
+  <nanos>426551</nanos>
+  <sequence>0</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server started</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-09-15T13:42:30.751042967Z</date>
+  <millis>1726407750751</millis>
+  <nanos>42967</nanos>
+  <sequence>0</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server started</message>
+</record>
+<record>
+  <date>2024-09-15T13:42:40.390360221Z</date>
+  <millis>1726407760390</millis>
+  <nanos>360221</nanos>
+  <sequence>1</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T13:42:40.408457045Z</date>
+  <millis>1726407760408</millis>
+  <nanos>457045</nanos>
+  <sequence>2</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T13:43:02.083188806Z</date>
+  <millis>1726407782083</millis>
+  <nanos>188806</nanos>
+  <sequence>3</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T13:43:02.083808992Z</date>
+  <millis>1726407782083</millis>
+  <nanos>808992</nanos>
+  <sequence>4</sequence>
+  <logger>Server</logger>
+  <level>WARNING</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Invalid json</message>
+</record>
+<record>
+  <date>2024-09-15T13:43:02.084285664Z</date>
+  <millis>1726407782084</millis>
+  <nanos>285664</nanos>
+  <sequence>5</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T13:43:20.251615885Z</date>
+  <millis>1726407800251</millis>
+  <nanos>615885</nanos>
+  <sequence>6</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T13:43:20.252145143Z</date>
+  <millis>1726407800252</millis>
+  <nanos>145143</nanos>
+  <sequence>7</sequence>
+  <logger>Server</logger>
+  <level>WARNING</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Invalid json</message>
+</record>
+<record>
+  <date>2024-09-15T13:43:20.252551881Z</date>
+  <millis>1726407800252</millis>
+  <nanos>551881</nanos>
+  <sequence>8</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T13:44:19.447712533Z</date>
+  <millis>1726407859447</millis>
+  <nanos>712533</nanos>
+  <sequence>9</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T13:44:19.448205260Z</date>
+  <millis>1726407859448</millis>
+  <nanos>205260</nanos>
+  <sequence>10</sequence>
+  <logger>Server</logger>
+  <level>WARNING</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Invalid json</message>
+</record>
+<record>
+  <date>2024-09-15T13:44:19.448614438Z</date>
+  <millis>1726407859448</millis>
+  <nanos>614438</nanos>
+  <sequence>11</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T13:44:33.179679922Z</date>
+  <millis>1726407873179</millis>
+  <nanos>679922</nanos>
+  <sequence>12</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T13:44:33.180346241Z</date>
+  <millis>1726407873180</millis>
+  <nanos>346241</nanos>
+  <sequence>13</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T13:44:44.409302817Z</date>
+  <millis>1726407884409</millis>
+  <nanos>302817</nanos>
+  <sequence>14</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T13:44:44.409987027Z</date>
+  <millis>1726407884409</millis>
+  <nanos>987027</nanos>
+  <sequence>15</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T13:44:59.886459005Z</date>
+  <millis>1726407899886</millis>
+  <nanos>459005</nanos>
+  <sequence>16</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T13:44:59.887135899Z</date>
+  <millis>1726407899887</millis>
+  <nanos>135899</nanos>
+  <sequence>17</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-09-15T14:01:45.814466260Z</date>
+  <millis>1726408905814</millis>
+  <nanos>466260</nanos>
+  <sequence>0</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server started</message>
+</record>
+<record>
+  <date>2024-09-15T14:02:24.002139838Z</date>
+  <millis>1726408944002</millis>
+  <nanos>139838</nanos>
+  <sequence>1</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:02:24.020023940Z</date>
+  <millis>1726408944020</millis>
+  <nanos>23940</nanos>
+  <sequence>2</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:03:12.970122137Z</date>
+  <millis>1726408992970</millis>
+  <nanos>122137</nanos>
+  <sequence>3</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:03:12.971051963Z</date>
+  <millis>1726408992971</millis>
+  <nanos>51963</nanos>
+  <sequence>4</sequence>
+  <logger>Server</logger>
+  <level>WARNING</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Invalid json</message>
+</record>
+<record>
+  <date>2024-09-15T14:03:12.971344524Z</date>
+  <millis>1726408992971</millis>
+  <nanos>344524</nanos>
+  <sequence>5</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:03:13.002187930Z</date>
+  <millis>1726408993002</millis>
+  <nanos>187930</nanos>
+  <sequence>6</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:03:13.003057365Z</date>
+  <millis>1726408993003</millis>
+  <nanos>57365</nanos>
+  <sequence>7</sequence>
+  <logger>Server</logger>
+  <level>WARNING</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Invalid json</message>
+</record>
+<record>
+  <date>2024-09-15T14:03:13.003282026Z</date>
+  <millis>1726408993003</millis>
+  <nanos>282026</nanos>
+  <sequence>8</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-09-15T14:05:14.366847979Z</date>
+  <millis>1726409114366</millis>
+  <nanos>847979</nanos>
+  <sequence>0</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server started</message>
+</record>
+<record>
+  <date>2024-09-15T14:05:54.515607026Z</date>
+  <millis>1726409154515</millis>
+  <nanos>607026</nanos>
+  <sequence>1</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:05:54.534944034Z</date>
+  <millis>1726409154534</millis>
+  <nanos>944034</nanos>
+  <sequence>2</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:06:53.925093119Z</date>
+  <millis>1726409213925</millis>
+  <nanos>93119</nanos>
+  <sequence>3</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:06:53.925811351Z</date>
+  <millis>1726409213925</millis>
+  <nanos>811351</nanos>
+  <sequence>4</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-09-15T14:21:12.563951959Z</date>
+  <millis>1726410072563</millis>
+  <nanos>951959</nanos>
+  <sequence>0</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server started</message>
+</record>
+<record>
+  <date>2024-09-15T14:21:31.681348642Z</date>
+  <millis>1726410091681</millis>
+  <nanos>348642</nanos>
+  <sequence>1</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:21:31.700330605Z</date>
+  <millis>1726410091700</millis>
+  <nanos>330605</nanos>
+  <sequence>2</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:23:41.952781141Z</date>
+  <millis>1726410221952</millis>
+  <nanos>781141</nanos>
+  <sequence>3</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:23:41.953643130Z</date>
+  <millis>1726410221953</millis>
+  <nanos>643130</nanos>
+  <sequence>4</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-09-15T14:27:40.838760201Z</date>
+  <millis>1726410460838</millis>
+  <nanos>760201</nanos>
+  <sequence>0</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server started</message>
+</record>
+<record>
+  <date>2024-09-15T14:27:50.963719414Z</date>
+  <millis>1726410470963</millis>
+  <nanos>719414</nanos>
+  <sequence>1</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:27:50.981645254Z</date>
+  <millis>1726410470981</millis>
+  <nanos>645254</nanos>
+  <sequence>2</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:29:44.230693541Z</date>
+  <millis>1726410584230</millis>
+  <nanos>693541</nanos>
+  <sequence>3</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:29:44.231533542Z</date>
+  <millis>1726410584231</millis>
+  <nanos>533542</nanos>
+  <sequence>4</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:29:51.073507115Z</date>
+  <millis>1726410591073</millis>
+  <nanos>507115</nanos>
+  <sequence>5</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:29:51.074409729Z</date>
+  <millis>1726410591074</millis>
+  <nanos>409729</nanos>
+  <sequence>6</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:29:53.347632420Z</date>
+  <millis>1726410593347</millis>
+  <nanos>632420</nanos>
+  <sequence>7</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:29:53.348449244Z</date>
+  <millis>1726410593348</millis>
+  <nanos>449244</nanos>
+  <sequence>8</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:29:55.890302199Z</date>
+  <millis>1726410595890</millis>
+  <nanos>302199</nanos>
+  <sequence>9</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:29:55.891066273Z</date>
+  <millis>1726410595891</millis>
+  <nanos>66273</nanos>
+  <sequence>10</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:29:57.146641589Z</date>
+  <millis>1726410597146</millis>
+  <nanos>641589</nanos>
+  <sequence>11</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:29:57.147455322Z</date>
+  <millis>1726410597147</millis>
+  <nanos>455322</nanos>
+  <sequence>12</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-09-15T14:32:52.443348298Z</date>
+  <millis>1726410772443</millis>
+  <nanos>348298</nanos>
+  <sequence>0</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server started</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:02.530435045Z</date>
+  <millis>1726410782530</millis>
+  <nanos>435045</nanos>
+  <sequence>1</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:02.549353184Z</date>
+  <millis>1726410782549</millis>
+  <nanos>353184</nanos>
+  <sequence>2</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:05.913697798Z</date>
+  <millis>1726410785913</millis>
+  <nanos>697798</nanos>
+  <sequence>3</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:05.914498001Z</date>
+  <millis>1726410785914</millis>
+  <nanos>498001</nanos>
+  <sequence>4</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:07.979254999Z</date>
+  <millis>1726410787979</millis>
+  <nanos>254999</nanos>
+  <sequence>5</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:07.980082499Z</date>
+  <millis>1726410787980</millis>
+  <nanos>82499</nanos>
+  <sequence>6</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:08.600616262Z</date>
+  <millis>1726410788600</millis>
+  <nanos>616262</nanos>
+  <sequence>7</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:08.601356339Z</date>
+  <millis>1726410788601</millis>
+  <nanos>356339</nanos>
+  <sequence>8</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:08.750723382Z</date>
+  <millis>1726410788750</millis>
+  <nanos>723382</nanos>
+  <sequence>9</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:08.751461763Z</date>
+  <millis>1726410788751</millis>
+  <nanos>461763</nanos>
+  <sequence>10</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:08.900917028Z</date>
+  <millis>1726410788900</millis>
+  <nanos>917028</nanos>
+  <sequence>11</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:08.901652195Z</date>
+  <millis>1726410788901</millis>
+  <nanos>652195</nanos>
+  <sequence>12</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:09.066029930Z</date>
+  <millis>1726410789066</millis>
+  <nanos>29930</nanos>
+  <sequence>13</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:09.066951684Z</date>
+  <millis>1726410789066</millis>
+  <nanos>951684</nanos>
+  <sequence>14</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:09.238054478Z</date>
+  <millis>1726410789238</millis>
+  <nanos>54478</nanos>
+  <sequence>15</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:09.238832153Z</date>
+  <millis>1726410789238</millis>
+  <nanos>832153</nanos>
+  <sequence>16</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:09.394876592Z</date>
+  <millis>1726410789394</millis>
+  <nanos>876592</nanos>
+  <sequence>17</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:09.395673758Z</date>
+  <millis>1726410789395</millis>
+  <nanos>673758</nanos>
+  <sequence>18</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:09.747333671Z</date>
+  <millis>1726410789747</millis>
+  <nanos>333671</nanos>
+  <sequence>19</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:09.748089772Z</date>
+  <millis>1726410789748</millis>
+  <nanos>89772</nanos>
+  <sequence>20</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:09.905488088Z</date>
+  <millis>1726410789905</millis>
+  <nanos>488088</nanos>
+  <sequence>21</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:09.906169239Z</date>
+  <millis>1726410789906</millis>
+  <nanos>169239</nanos>
+  <sequence>22</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:10.058686934Z</date>
+  <millis>1726410790058</millis>
+  <nanos>686934</nanos>
+  <sequence>23</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:10.059383211Z</date>
+  <millis>1726410790059</millis>
+  <nanos>383211</nanos>
+  <sequence>24</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:10.251855024Z</date>
+  <millis>1726410790251</millis>
+  <nanos>855024</nanos>
+  <sequence>25</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:10.252616475Z</date>
+  <millis>1726410790252</millis>
+  <nanos>616475</nanos>
+  <sequence>26</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:10.393156440Z</date>
+  <millis>1726410790393</millis>
+  <nanos>156440</nanos>
+  <sequence>27</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:10.393856044Z</date>
+  <millis>1726410790393</millis>
+  <nanos>856044</nanos>
+  <sequence>28</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:10.581568641Z</date>
+  <millis>1726410790581</millis>
+  <nanos>568641</nanos>
+  <sequence>29</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:10.582297589Z</date>
+  <millis>1726410790582</millis>
+  <nanos>297589</nanos>
+  <sequence>30</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:10.744243959Z</date>
+  <millis>1726410790744</millis>
+  <nanos>243959</nanos>
+  <sequence>31</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:10.745003389Z</date>
+  <millis>1726410790745</millis>
+  <nanos>3389</nanos>
+  <sequence>32</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:10.885405236Z</date>
+  <millis>1726410790885</millis>
+  <nanos>405236</nanos>
+  <sequence>33</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:10.886143838Z</date>
+  <millis>1726410790886</millis>
+  <nanos>143838</nanos>
+  <sequence>34</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:11.292320489Z</date>
+  <millis>1726410791292</millis>
+  <nanos>320489</nanos>
+  <sequence>35</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:11.292982959Z</date>
+  <millis>1726410791292</millis>
+  <nanos>982959</nanos>
+  <sequence>36</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:12.241430069Z</date>
+  <millis>1726410792241</millis>
+  <nanos>430069</nanos>
+  <sequence>37</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:12.242154144Z</date>
+  <millis>1726410792242</millis>
+  <nanos>154144</nanos>
+  <sequence>38</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:12.969115773Z</date>
+  <millis>1726410792969</millis>
+  <nanos>115773</nanos>
+  <sequence>39</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:12.969803639Z</date>
+  <millis>1726410792969</millis>
+  <nanos>803639</nanos>
+  <sequence>40</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:13.537361755Z</date>
+  <millis>1726410793537</millis>
+  <nanos>361755</nanos>
+  <sequence>41</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:13.546133448Z</date>
+  <millis>1726410793546</millis>
+  <nanos>133448</nanos>
+  <sequence>42</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:13.720722320Z</date>
+  <millis>1726410793720</millis>
+  <nanos>722320</nanos>
+  <sequence>43</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:13.721508675Z</date>
+  <millis>1726410793721</millis>
+  <nanos>508675</nanos>
+  <sequence>44</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:16.830048378Z</date>
+  <millis>1726410796830</millis>
+  <nanos>48378</nanos>
+  <sequence>45</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:16.830770158Z</date>
+  <millis>1726410796830</millis>
+  <nanos>770158</nanos>
+  <sequence>46</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:17.353449004Z</date>
+  <millis>1726410797353</millis>
+  <nanos>449004</nanos>
+  <sequence>47</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:17.354049499Z</date>
+  <millis>1726410797354</millis>
+  <nanos>49499</nanos>
+  <sequence>48</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:17.513756398Z</date>
+  <millis>1726410797513</millis>
+  <nanos>756398</nanos>
+  <sequence>49</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:17.514455631Z</date>
+  <millis>1726410797514</millis>
+  <nanos>455631</nanos>
+  <sequence>50</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:17.840044472Z</date>
+  <millis>1726410797840</millis>
+  <nanos>44472</nanos>
+  <sequence>51</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:17.840672307Z</date>
+  <millis>1726410797840</millis>
+  <nanos>672307</nanos>
+  <sequence>52</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:18.018998557Z</date>
+  <millis>1726410798018</millis>
+  <nanos>998557</nanos>
+  <sequence>53</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:18.019666409Z</date>
+  <millis>1726410798019</millis>
+  <nanos>666409</nanos>
+  <sequence>54</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:18.177001975Z</date>
+  <millis>1726410798177</millis>
+  <nanos>1975</nanos>
+  <sequence>55</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:18.177713783Z</date>
+  <millis>1726410798177</millis>
+  <nanos>713783</nanos>
+  <sequence>56</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:18.341757021Z</date>
+  <millis>1726410798341</millis>
+  <nanos>757021</nanos>
+  <sequence>57</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:18.342458644Z</date>
+  <millis>1726410798342</millis>
+  <nanos>458644</nanos>
+  <sequence>58</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:18.497523751Z</date>
+  <millis>1726410798497</millis>
+  <nanos>523751</nanos>
+  <sequence>59</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:18.498252663Z</date>
+  <millis>1726410798498</millis>
+  <nanos>252663</nanos>
+  <sequence>60</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:18.670572261Z</date>
+  <millis>1726410798670</millis>
+  <nanos>572261</nanos>
+  <sequence>61</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:18.671228699Z</date>
+  <millis>1726410798671</millis>
+  <nanos>228699</nanos>
+  <sequence>62</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:18.824532921Z</date>
+  <millis>1726410798824</millis>
+  <nanos>532921</nanos>
+  <sequence>63</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:18.825435184Z</date>
+  <millis>1726410798825</millis>
+  <nanos>435184</nanos>
+  <sequence>64</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:18.979152234Z</date>
+  <millis>1726410798979</millis>
+  <nanos>152234</nanos>
+  <sequence>65</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:18.979793670Z</date>
+  <millis>1726410798979</millis>
+  <nanos>793670</nanos>
+  <sequence>66</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:19.152230655Z</date>
+  <millis>1726410799152</millis>
+  <nanos>230655</nanos>
+  <sequence>67</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:19.152873139Z</date>
+  <millis>1726410799152</millis>
+  <nanos>873139</nanos>
+  <sequence>68</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:19.276335350Z</date>
+  <millis>1726410799276</millis>
+  <nanos>335350</nanos>
+  <sequence>69</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:19.277034379Z</date>
+  <millis>1726410799277</millis>
+  <nanos>34379</nanos>
+  <sequence>70</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:19.451190937Z</date>
+  <millis>1726410799451</millis>
+  <nanos>190937</nanos>
+  <sequence>71</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:19.451877175Z</date>
+  <millis>1726410799451</millis>
+  <nanos>877175</nanos>
+  <sequence>72</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:19.596775204Z</date>
+  <millis>1726410799596</millis>
+  <nanos>775204</nanos>
+  <sequence>73</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:19.597459916Z</date>
+  <millis>1726410799597</millis>
+  <nanos>459916</nanos>
+  <sequence>74</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:19.746723988Z</date>
+  <millis>1726410799746</millis>
+  <nanos>723988</nanos>
+  <sequence>75</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:19.747455180Z</date>
+  <millis>1726410799747</millis>
+  <nanos>455180</nanos>
+  <sequence>76</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:19.901216941Z</date>
+  <millis>1726410799901</millis>
+  <nanos>216941</nanos>
+  <sequence>77</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:19.901854619Z</date>
+  <millis>1726410799901</millis>
+  <nanos>854619</nanos>
+  <sequence>78</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:20.059559336Z</date>
+  <millis>1726410800059</millis>
+  <nanos>559336</nanos>
+  <sequence>79</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:20.060173869Z</date>
+  <millis>1726410800060</millis>
+  <nanos>173869</nanos>
+  <sequence>80</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:20.344477319Z</date>
+  <millis>1726410800344</millis>
+  <nanos>477319</nanos>
+  <sequence>81</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:20.345117410Z</date>
+  <millis>1726410800345</millis>
+  <nanos>117410</nanos>
+  <sequence>82</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:20.508868441Z</date>
+  <millis>1726410800508</millis>
+  <nanos>868441</nanos>
+  <sequence>83</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:20.509578585Z</date>
+  <millis>1726410800509</millis>
+  <nanos>578585</nanos>
+  <sequence>84</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:20.664244332Z</date>
+  <millis>1726410800664</millis>
+  <nanos>244332</nanos>
+  <sequence>85</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:20.664996880Z</date>
+  <millis>1726410800664</millis>
+  <nanos>996880</nanos>
+  <sequence>86</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:20.829077012Z</date>
+  <millis>1726410800829</millis>
+  <nanos>77012</nanos>
+  <sequence>87</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:20.829891139Z</date>
+  <millis>1726410800829</millis>
+  <nanos>891139</nanos>
+  <sequence>88</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:20.992059352Z</date>
+  <millis>1726410800992</millis>
+  <nanos>59352</nanos>
+  <sequence>89</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:20.992763414Z</date>
+  <millis>1726410800992</millis>
+  <nanos>763414</nanos>
+  <sequence>90</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:21.121329086Z</date>
+  <millis>1726410801121</millis>
+  <nanos>329086</nanos>
+  <sequence>91</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:21.122003610Z</date>
+  <millis>1726410801122</millis>
+  <nanos>3610</nanos>
+  <sequence>92</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:21.268921753Z</date>
+  <millis>1726410801268</millis>
+  <nanos>921753</nanos>
+  <sequence>93</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:21.269514401Z</date>
+  <millis>1726410801269</millis>
+  <nanos>514401</nanos>
+  <sequence>94</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:21.425044329Z</date>
+  <millis>1726410801425</millis>
+  <nanos>44329</nanos>
+  <sequence>95</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:21.425700877Z</date>
+  <millis>1726410801425</millis>
+  <nanos>700877</nanos>
+  <sequence>96</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:21.569936300Z</date>
+  <millis>1726410801569</millis>
+  <nanos>936300</nanos>
+  <sequence>97</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:33:21.570529701Z</date>
+  <millis>1726410801570</millis>
+  <nanos>529701</nanos>
+  <sequence>98</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-09-15T14:37:17.927154032Z</date>
+  <millis>1726411037927</millis>
+  <nanos>154032</nanos>
+  <sequence>0</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server started</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-09-15T14:39:32.873556463Z</date>
+  <millis>1726411172873</millis>
+  <nanos>556463</nanos>
+  <sequence>0</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server started</message>
+</record>
+<record>
+  <date>2024-09-15T14:39:41.983845191Z</date>
+  <millis>1726411181983</millis>
+  <nanos>845191</nanos>
+  <sequence>1</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:39:42.001842607Z</date>
+  <millis>1726411182001</millis>
+  <nanos>842607</nanos>
+  <sequence>2</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:40:09.524171269Z</date>
+  <millis>1726411209524</millis>
+  <nanos>171269</nanos>
+  <sequence>3</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:40:09.524980077Z</date>
+  <millis>1726411209524</millis>
+  <nanos>980077</nanos>
+  <sequence>4</sequence>
+  <logger>Server</logger>
+  <level>WARNING</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Invalid json</message>
+</record>
+<record>
+  <date>2024-09-15T14:40:09.525267966Z</date>
+  <millis>1726411209525</millis>
+  <nanos>267966</nanos>
+  <sequence>5</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:40:09.905333704Z</date>
+  <millis>1726411209905</millis>
+  <nanos>333704</nanos>
+  <sequence>6</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:40:09.906140222Z</date>
+  <millis>1726411209906</millis>
+  <nanos>140222</nanos>
+  <sequence>7</sequence>
+  <logger>Server</logger>
+  <level>WARNING</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Invalid json</message>
+</record>
+<record>
+  <date>2024-09-15T14:40:09.906361760Z</date>
+  <millis>1726411209906</millis>
+  <nanos>361760</nanos>
+  <sequence>8</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:40:11.508039965Z</date>
+  <millis>1726411211508</millis>
+  <nanos>39965</nanos>
+  <sequence>9</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:40:11.508745801Z</date>
+  <millis>1726411211508</millis>
+  <nanos>745801</nanos>
+  <sequence>10</sequence>
+  <logger>Server</logger>
+  <level>WARNING</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Invalid json</message>
+</record>
+<record>
+  <date>2024-09-15T14:40:11.508963469Z</date>
+  <millis>1726411211508</millis>
+  <nanos>963469</nanos>
+  <sequence>11</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:40:11.542339384Z</date>
+  <millis>1726411211542</millis>
+  <nanos>339384</nanos>
+  <sequence>12</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:40:11.542987679Z</date>
+  <millis>1726411211542</millis>
+  <nanos>987679</nanos>
+  <sequence>13</sequence>
+  <logger>Server</logger>
+  <level>WARNING</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Invalid json</message>
+</record>
+<record>
+  <date>2024-09-15T14:40:11.543229320Z</date>
+  <millis>1726411211543</millis>
+  <nanos>229320</nanos>
+  <sequence>14</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-09-15T14:45:16.647126654Z</date>
+  <millis>1726411516647</millis>
+  <nanos>126654</nanos>
+  <sequence>0</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server started</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-09-15T14:47:06.145399359Z</date>
+  <millis>1726411626145</millis>
+  <nanos>399359</nanos>
+  <sequence>0</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server started</message>
+</record>
+<record>
+  <date>2024-09-15T14:47:23.554272164Z</date>
+  <millis>1726411643554</millis>
+  <nanos>272164</nanos>
+  <sequence>1</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:47:23.573026818Z</date>
+  <millis>1726411643573</millis>
+  <nanos>26818</nanos>
+  <sequence>2</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:47:30.747463551Z</date>
+  <millis>1726411650747</millis>
+  <nanos>463551</nanos>
+  <sequence>3</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:47:30.748314909Z</date>
+  <millis>1726411650748</millis>
+  <nanos>314909</nanos>
+  <sequence>4</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:47:33.027127940Z</date>
+  <millis>1726411653027</millis>
+  <nanos>127940</nanos>
+  <sequence>5</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:47:33.028012643Z</date>
+  <millis>1726411653028</millis>
+  <nanos>12643</nanos>
+  <sequence>6</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:47:36.530605075Z</date>
+  <millis>1726411656530</millis>
+  <nanos>605075</nanos>
+  <sequence>7</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:47:36.531315926Z</date>
+  <millis>1726411656531</millis>
+  <nanos>315926</nanos>
+  <sequence>8</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:05.588582409Z</date>
+  <millis>1726411685588</millis>
+  <nanos>582409</nanos>
+  <sequence>9</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:05.589374465Z</date>
+  <millis>1726411685589</millis>
+  <nanos>374465</nanos>
+  <sequence>10</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:05.748292240Z</date>
+  <millis>1726411685748</millis>
+  <nanos>292240</nanos>
+  <sequence>11</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:05.749054212Z</date>
+  <millis>1726411685749</millis>
+  <nanos>54212</nanos>
+  <sequence>12</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:05.913350830Z</date>
+  <millis>1726411685913</millis>
+  <nanos>350830</nanos>
+  <sequence>13</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:05.914268950Z</date>
+  <millis>1726411685914</millis>
+  <nanos>268950</nanos>
+  <sequence>14</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:06.036316566Z</date>
+  <millis>1726411686036</millis>
+  <nanos>316566</nanos>
+  <sequence>15</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:06.042717791Z</date>
+  <millis>1726411686042</millis>
+  <nanos>717791</nanos>
+  <sequence>16</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:06.192730443Z</date>
+  <millis>1726411686192</millis>
+  <nanos>730443</nanos>
+  <sequence>17</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:06.193507709Z</date>
+  <millis>1726411686193</millis>
+  <nanos>507709</nanos>
+  <sequence>18</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:06.331092351Z</date>
+  <millis>1726411686331</millis>
+  <nanos>92351</nanos>
+  <sequence>19</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:06.331899687Z</date>
+  <millis>1726411686331</millis>
+  <nanos>899687</nanos>
+  <sequence>20</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:06.475523387Z</date>
+  <millis>1726411686475</millis>
+  <nanos>523387</nanos>
+  <sequence>21</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:06.476217330Z</date>
+  <millis>1726411686476</millis>
+  <nanos>217330</nanos>
+  <sequence>22</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:06.658580767Z</date>
+  <millis>1726411686658</millis>
+  <nanos>580767</nanos>
+  <sequence>23</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:06.659398041Z</date>
+  <millis>1726411686659</millis>
+  <nanos>398041</nanos>
+  <sequence>24</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:06.781033373Z</date>
+  <millis>1726411686781</millis>
+  <nanos>33373</nanos>
+  <sequence>25</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:06.781869671Z</date>
+  <millis>1726411686781</millis>
+  <nanos>869671</nanos>
+  <sequence>26</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:06.956368360Z</date>
+  <millis>1726411686956</millis>
+  <nanos>368360</nanos>
+  <sequence>27</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:06.957124263Z</date>
+  <millis>1726411686957</millis>
+  <nanos>124263</nanos>
+  <sequence>28</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:07.084784930Z</date>
+  <millis>1726411687084</millis>
+  <nanos>784930</nanos>
+  <sequence>29</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:07.085525321Z</date>
+  <millis>1726411687085</millis>
+  <nanos>525321</nanos>
+  <sequence>30</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:07.268448843Z</date>
+  <millis>1726411687268</millis>
+  <nanos>448843</nanos>
+  <sequence>31</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:07.269309371Z</date>
+  <millis>1726411687269</millis>
+  <nanos>309371</nanos>
+  <sequence>32</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:07.420536975Z</date>
+  <millis>1726411687420</millis>
+  <nanos>536975</nanos>
+  <sequence>33</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:07.421337701Z</date>
+  <millis>1726411687421</millis>
+  <nanos>337701</nanos>
+  <sequence>34</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:07.555387149Z</date>
+  <millis>1726411687555</millis>
+  <nanos>387149</nanos>
+  <sequence>35</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:07.556107136Z</date>
+  <millis>1726411687556</millis>
+  <nanos>107136</nanos>
+  <sequence>36</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:08.704929478Z</date>
+  <millis>1726411688704</millis>
+  <nanos>929478</nanos>
+  <sequence>37</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:08.705660461Z</date>
+  <millis>1726411688705</millis>
+  <nanos>660461</nanos>
+  <sequence>38</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:08.889402309Z</date>
+  <millis>1726411688889</millis>
+  <nanos>402309</nanos>
+  <sequence>39</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:08.890172145Z</date>
+  <millis>1726411688890</millis>
+  <nanos>172145</nanos>
+  <sequence>40</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:09.399111483Z</date>
+  <millis>1726411689399</millis>
+  <nanos>111483</nanos>
+  <sequence>41</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:09.399840115Z</date>
+  <millis>1726411689399</millis>
+  <nanos>840115</nanos>
+  <sequence>42</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:09.698766942Z</date>
+  <millis>1726411689698</millis>
+  <nanos>766942</nanos>
+  <sequence>43</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:09.699433043Z</date>
+  <millis>1726411689699</millis>
+  <nanos>433043</nanos>
+  <sequence>44</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:09.853861776Z</date>
+  <millis>1726411689853</millis>
+  <nanos>861776</nanos>
+  <sequence>45</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:09.854594385Z</date>
+  <millis>1726411689854</millis>
+  <nanos>594385</nanos>
+  <sequence>46</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:10.147516326Z</date>
+  <millis>1726411690147</millis>
+  <nanos>516326</nanos>
+  <sequence>47</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:10.148100245Z</date>
+  <millis>1726411690148</millis>
+  <nanos>100245</nanos>
+  <sequence>48</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:10.595591366Z</date>
+  <millis>1726411690595</millis>
+  <nanos>591366</nanos>
+  <sequence>49</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:10.596385279Z</date>
+  <millis>1726411690596</millis>
+  <nanos>385279</nanos>
+  <sequence>50</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:10.629038942Z</date>
+  <millis>1726411690629</millis>
+  <nanos>38942</nanos>
+  <sequence>51</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:10.629722162Z</date>
+  <millis>1726411690629</millis>
+  <nanos>722162</nanos>
+  <sequence>52</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:12.268305272Z</date>
+  <millis>1726411692268</millis>
+  <nanos>305272</nanos>
+  <sequence>53</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:12.268966809Z</date>
+  <millis>1726411692268</millis>
+  <nanos>966809</nanos>
+  <sequence>54</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:12.421223121Z</date>
+  <millis>1726411692421</millis>
+  <nanos>223121</nanos>
+  <sequence>55</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:12.421927195Z</date>
+  <millis>1726411692421</millis>
+  <nanos>927195</nanos>
+  <sequence>56</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:12.549561508Z</date>
+  <millis>1726411692549</millis>
+  <nanos>561508</nanos>
+  <sequence>57</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:12.550298374Z</date>
+  <millis>1726411692550</millis>
+  <nanos>298374</nanos>
+  <sequence>58</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:12.858622047Z</date>
+  <millis>1726411692858</millis>
+  <nanos>622047</nanos>
+  <sequence>59</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:12.859352516Z</date>
+  <millis>1726411692859</millis>
+  <nanos>352516</nanos>
+  <sequence>60</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:13.017725756Z</date>
+  <millis>1726411693017</millis>
+  <nanos>725756</nanos>
+  <sequence>61</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:13.018369194Z</date>
+  <millis>1726411693018</millis>
+  <nanos>369194</nanos>
+  <sequence>62</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:13.145307334Z</date>
+  <millis>1726411693145</millis>
+  <nanos>307334</nanos>
+  <sequence>63</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:13.146113515Z</date>
+  <millis>1726411693146</millis>
+  <nanos>113515</nanos>
+  <sequence>64</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:13.298465398Z</date>
+  <millis>1726411693298</millis>
+  <nanos>465398</nanos>
+  <sequence>65</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:13.299124644Z</date>
+  <millis>1726411693299</millis>
+  <nanos>124644</nanos>
+  <sequence>66</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:13.453592949Z</date>
+  <millis>1726411693453</millis>
+  <nanos>592949</nanos>
+  <sequence>67</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:13.454200568Z</date>
+  <millis>1726411693454</millis>
+  <nanos>200568</nanos>
+  <sequence>68</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:13.596833443Z</date>
+  <millis>1726411693596</millis>
+  <nanos>833443</nanos>
+  <sequence>69</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:13.597575572Z</date>
+  <millis>1726411693597</millis>
+  <nanos>575572</nanos>
+  <sequence>70</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:13.738005106Z</date>
+  <millis>1726411693738</millis>
+  <nanos>5106</nanos>
+  <sequence>71</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:13.738762049Z</date>
+  <millis>1726411693738</millis>
+  <nanos>762049</nanos>
+  <sequence>72</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:13.900799740Z</date>
+  <millis>1726411693900</millis>
+  <nanos>799740</nanos>
+  <sequence>73</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:13.901499025Z</date>
+  <millis>1726411693901</millis>
+  <nanos>499025</nanos>
+  <sequence>74</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:14.044658937Z</date>
+  <millis>1726411694044</millis>
+  <nanos>658937</nanos>
+  <sequence>75</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:14.045459277Z</date>
+  <millis>1726411694045</millis>
+  <nanos>459277</nanos>
+  <sequence>76</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:14.196903931Z</date>
+  <millis>1726411694196</millis>
+  <nanos>903931</nanos>
+  <sequence>77</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:14.197571174Z</date>
+  <millis>1726411694197</millis>
+  <nanos>571174</nanos>
+  <sequence>78</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:14.356827537Z</date>
+  <millis>1726411694356</millis>
+  <nanos>827537</nanos>
+  <sequence>79</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:14.357496140Z</date>
+  <millis>1726411694357</millis>
+  <nanos>496140</nanos>
+  <sequence>80</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:14.513472220Z</date>
+  <millis>1726411694513</millis>
+  <nanos>472220</nanos>
+  <sequence>81</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:14.514188572Z</date>
+  <millis>1726411694514</millis>
+  <nanos>188572</nanos>
+  <sequence>82</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:14.914037150Z</date>
+  <millis>1726411694914</millis>
+  <nanos>37150</nanos>
+  <sequence>83</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:14.914745262Z</date>
+  <millis>1726411694914</millis>
+  <nanos>745262</nanos>
+  <sequence>84</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:14.946009335Z</date>
+  <millis>1726411694946</millis>
+  <nanos>9335</nanos>
+  <sequence>85</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:14.946782589Z</date>
+  <millis>1726411694946</millis>
+  <nanos>782589</nanos>
+  <sequence>86</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:14.986492787Z</date>
+  <millis>1726411694986</millis>
+  <nanos>492787</nanos>
+  <sequence>87</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:14.987313023Z</date>
+  <millis>1726411694987</millis>
+  <nanos>313023</nanos>
+  <sequence>88</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:15.130971619Z</date>
+  <millis>1726411695130</millis>
+  <nanos>971619</nanos>
+  <sequence>89</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:15.131675537Z</date>
+  <millis>1726411695131</millis>
+  <nanos>675537</nanos>
+  <sequence>90</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:15.282467794Z</date>
+  <millis>1726411695282</millis>
+  <nanos>467794</nanos>
+  <sequence>91</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:15.283162905Z</date>
+  <millis>1726411695283</millis>
+  <nanos>162905</nanos>
+  <sequence>92</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:15.442704443Z</date>
+  <millis>1726411695442</millis>
+  <nanos>704443</nanos>
+  <sequence>93</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:15.443379016Z</date>
+  <millis>1726411695443</millis>
+  <nanos>379016</nanos>
+  <sequence>94</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:15.598464767Z</date>
+  <millis>1726411695598</millis>
+  <nanos>464767</nanos>
+  <sequence>95</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:15.599137700Z</date>
+  <millis>1726411695599</millis>
+  <nanos>137700</nanos>
+  <sequence>96</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:15.732215925Z</date>
+  <millis>1726411695732</millis>
+  <nanos>215925</nanos>
+  <sequence>97</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:15.732938792Z</date>
+  <millis>1726411695732</millis>
+  <nanos>938792</nanos>
+  <sequence>98</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:15.858587073Z</date>
+  <millis>1726411695858</millis>
+  <nanos>587073</nanos>
+  <sequence>99</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:15.859289050Z</date>
+  <millis>1726411695859</millis>
+  <nanos>289050</nanos>
+  <sequence>100</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:16.028055961Z</date>
+  <millis>1726411696028</millis>
+  <nanos>55961</nanos>
+  <sequence>101</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:16.028834148Z</date>
+  <millis>1726411696028</millis>
+  <nanos>834148</nanos>
+  <sequence>102</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:16.389999365Z</date>
+  <millis>1726411696389</millis>
+  <nanos>999365</nanos>
+  <sequence>103</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:16.390710306Z</date>
+  <millis>1726411696390</millis>
+  <nanos>710306</nanos>
+  <sequence>104</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:16.421304262Z</date>
+  <millis>1726411696421</millis>
+  <nanos>304262</nanos>
+  <sequence>105</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:16.421901597Z</date>
+  <millis>1726411696421</millis>
+  <nanos>901597</nanos>
+  <sequence>106</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:16.508137154Z</date>
+  <millis>1726411696508</millis>
+  <nanos>137154</nanos>
+  <sequence>107</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:16.508797626Z</date>
+  <millis>1726411696508</millis>
+  <nanos>797626</nanos>
+  <sequence>108</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:16.674754094Z</date>
+  <millis>1726411696674</millis>
+  <nanos>754094</nanos>
+  <sequence>109</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:16.675493761Z</date>
+  <millis>1726411696675</millis>
+  <nanos>493761</nanos>
+  <sequence>110</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:17.169960421Z</date>
+  <millis>1726411697169</millis>
+  <nanos>960421</nanos>
+  <sequence>111</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:17.170704270Z</date>
+  <millis>1726411697170</millis>
+  <nanos>704270</nanos>
+  <sequence>112</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:17.208845507Z</date>
+  <millis>1726411697208</millis>
+  <nanos>845507</nanos>
+  <sequence>113</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:17.209472415Z</date>
+  <millis>1726411697209</millis>
+  <nanos>472415</nanos>
+  <sequence>114</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:17.608969494Z</date>
+  <millis>1726411697608</millis>
+  <nanos>969494</nanos>
+  <sequence>115</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:17.609627325Z</date>
+  <millis>1726411697609</millis>
+  <nanos>627325</nanos>
+  <sequence>116</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:17.642766711Z</date>
+  <millis>1726411697642</millis>
+  <nanos>766711</nanos>
+  <sequence>117</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:17.643445659Z</date>
+  <millis>1726411697643</millis>
+  <nanos>445659</nanos>
+  <sequence>118</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:17.682497457Z</date>
+  <millis>1726411697682</millis>
+  <nanos>497457</nanos>
+  <sequence>119</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:17.683198148Z</date>
+  <millis>1726411697683</millis>
+  <nanos>198148</nanos>
+  <sequence>120</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:17.806011681Z</date>
+  <millis>1726411697806</millis>
+  <nanos>11681</nanos>
+  <sequence>121</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:17.806714833Z</date>
+  <millis>1726411697806</millis>
+  <nanos>714833</nanos>
+  <sequence>122</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:18.127703992Z</date>
+  <millis>1726411698127</millis>
+  <nanos>703992</nanos>
+  <sequence>123</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:18.128363714Z</date>
+  <millis>1726411698128</millis>
+  <nanos>363714</nanos>
+  <sequence>124</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:18.163906992Z</date>
+  <millis>1726411698163</millis>
+  <nanos>906992</nanos>
+  <sequence>125</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:18.164491881Z</date>
+  <millis>1726411698164</millis>
+  <nanos>491881</nanos>
+  <sequence>126</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:18.251445790Z</date>
+  <millis>1726411698251</millis>
+  <nanos>445790</nanos>
+  <sequence>127</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:18.252291631Z</date>
+  <millis>1726411698252</millis>
+  <nanos>291631</nanos>
+  <sequence>128</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:18.729024530Z</date>
+  <millis>1726411698729</millis>
+  <nanos>24530</nanos>
+  <sequence>129</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:18.729750845Z</date>
+  <millis>1726411698729</millis>
+  <nanos>750845</nanos>
+  <sequence>130</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:18.761043982Z</date>
+  <millis>1726411698761</millis>
+  <nanos>43982</nanos>
+  <sequence>131</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:18.761604188Z</date>
+  <millis>1726411698761</millis>
+  <nanos>604188</nanos>
+  <sequence>132</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:18.790955021Z</date>
+  <millis>1726411698790</millis>
+  <nanos>955021</nanos>
+  <sequence>133</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:18.791514604Z</date>
+  <millis>1726411698791</millis>
+  <nanos>514604</nanos>
+  <sequence>134</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:19.207268625Z</date>
+  <millis>1726411699207</millis>
+  <nanos>268625</nanos>
+  <sequence>135</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:19.207996277Z</date>
+  <millis>1726411699207</millis>
+  <nanos>996277</nanos>
+  <sequence>136</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:19.239393548Z</date>
+  <millis>1726411699239</millis>
+  <nanos>393548</nanos>
+  <sequence>137</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:19.240116747Z</date>
+  <millis>1726411699240</millis>
+  <nanos>116747</nanos>
+  <sequence>138</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:19.270555318Z</date>
+  <millis>1726411699270</millis>
+  <nanos>555318</nanos>
+  <sequence>139</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:19.271254331Z</date>
+  <millis>1726411699271</millis>
+  <nanos>254331</nanos>
+  <sequence>140</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:19.404120103Z</date>
+  <millis>1726411699404</millis>
+  <nanos>120103</nanos>
+  <sequence>141</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:19.404780537Z</date>
+  <millis>1726411699404</millis>
+  <nanos>780537</nanos>
+  <sequence>142</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:19.579872518Z</date>
+  <millis>1726411699579</millis>
+  <nanos>872518</nanos>
+  <sequence>143</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:19.580626470Z</date>
+  <millis>1726411699580</millis>
+  <nanos>626470</nanos>
+  <sequence>144</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:19.719622388Z</date>
+  <millis>1726411699719</millis>
+  <nanos>622388</nanos>
+  <sequence>145</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:19.720327679Z</date>
+  <millis>1726411699720</millis>
+  <nanos>327679</nanos>
+  <sequence>146</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:20.062070615Z</date>
+  <millis>1726411700062</millis>
+  <nanos>70615</nanos>
+  <sequence>147</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:20.062709202Z</date>
+  <millis>1726411700062</millis>
+  <nanos>709202</nanos>
+  <sequence>148</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:20.094214969Z</date>
+  <millis>1726411700094</millis>
+  <nanos>214969</nanos>
+  <sequence>149</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:20.094807232Z</date>
+  <millis>1726411700094</millis>
+  <nanos>807232</nanos>
+  <sequence>150</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:20.203830484Z</date>
+  <millis>1726411700203</millis>
+  <nanos>830484</nanos>
+  <sequence>151</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:20.204334338Z</date>
+  <millis>1726411700204</millis>
+  <nanos>334338</nanos>
+  <sequence>152</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:20.378799241Z</date>
+  <millis>1726411700378</millis>
+  <nanos>799241</nanos>
+  <sequence>153</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:20.379368599Z</date>
+  <millis>1726411700379</millis>
+  <nanos>368599</nanos>
+  <sequence>154</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:20.564144637Z</date>
+  <millis>1726411700564</millis>
+  <nanos>144637</nanos>
+  <sequence>155</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:20.564666116Z</date>
+  <millis>1726411700564</millis>
+  <nanos>666116</nanos>
+  <sequence>156</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:20.978810233Z</date>
+  <millis>1726411700978</millis>
+  <nanos>810233</nanos>
+  <sequence>157</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:20.979420755Z</date>
+  <millis>1726411700979</millis>
+  <nanos>420755</nanos>
+  <sequence>158</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:21.149008146Z</date>
+  <millis>1726411701149</millis>
+  <nanos>8146</nanos>
+  <sequence>159</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:21.149585653Z</date>
+  <millis>1726411701149</millis>
+  <nanos>585653</nanos>
+  <sequence>160</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:21.285112849Z</date>
+  <millis>1726411701285</millis>
+  <nanos>112849</nanos>
+  <sequence>161</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:21.285653116Z</date>
+  <millis>1726411701285</millis>
+  <nanos>653116</nanos>
+  <sequence>162</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:21.445291567Z</date>
+  <millis>1726411701445</millis>
+  <nanos>291567</nanos>
+  <sequence>163</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:21.445828104Z</date>
+  <millis>1726411701445</millis>
+  <nanos>828104</nanos>
+  <sequence>164</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:21.617752990Z</date>
+  <millis>1726411701617</millis>
+  <nanos>752990</nanos>
+  <sequence>165</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:21.618446129Z</date>
+  <millis>1726411701618</millis>
+  <nanos>446129</nanos>
+  <sequence>166</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:21.765595746Z</date>
+  <millis>1726411701765</millis>
+  <nanos>595746</nanos>
+  <sequence>167</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:21.766355887Z</date>
+  <millis>1726411701766</millis>
+  <nanos>355887</nanos>
+  <sequence>168</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:22.239539923Z</date>
+  <millis>1726411702239</millis>
+  <nanos>539923</nanos>
+  <sequence>169</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:22.240200400Z</date>
+  <millis>1726411702240</millis>
+  <nanos>200400</nanos>
+  <sequence>170</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:22.273603168Z</date>
+  <millis>1726411702273</millis>
+  <nanos>603168</nanos>
+  <sequence>171</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:22.274262794Z</date>
+  <millis>1726411702274</millis>
+  <nanos>262794</nanos>
+  <sequence>172</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:22.306386691Z</date>
+  <millis>1726411702306</millis>
+  <nanos>386691</nanos>
+  <sequence>173</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:22.307023535Z</date>
+  <millis>1726411702307</millis>
+  <nanos>23535</nanos>
+  <sequence>174</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:22.388183415Z</date>
+  <millis>1726411702388</millis>
+  <nanos>183415</nanos>
+  <sequence>175</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:22.388818241Z</date>
+  <millis>1726411702388</millis>
+  <nanos>818241</nanos>
+  <sequence>176</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:22.538980864Z</date>
+  <millis>1726411702538</millis>
+  <nanos>980864</nanos>
+  <sequence>177</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:22.539639183Z</date>
+  <millis>1726411702539</millis>
+  <nanos>639183</nanos>
+  <sequence>178</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:22.682435643Z</date>
+  <millis>1726411702682</millis>
+  <nanos>435643</nanos>
+  <sequence>179</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server get request</message>
+</record>
+<record>
+  <date>2024-09-15T14:48:22.683036527Z</date>
+  <millis>1726411702683</millis>
+  <nanos>36527</nanos>
+  <sequence>180</sequence>
+  <logger>Server</logger>
+  <level>INFO</level>
+  <class>Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Request has been processed</message>
+</record>

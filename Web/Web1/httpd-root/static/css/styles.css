@@ -1,0 +1,191 @@
+html {
+    box-sizing: border-box;
+    min-height: 100vh;
+}
+
+*, *:after, *:before {
+    box-sizing: inherit;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1620px;
+    padding: 0 15px;
+    font-family: "Courier New", monospace;
+    font-size: 32px;
+    font-style: normal;
+    line-height: normal;
+    margin: 0 auto;
+}
+
+.header, .footer {
+    background-color: #3D3D3D;
+    color: #FFFFFF;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px 0;
+}
+
+.main {
+    flex: 1 0 auto;
+    padding: 30px 0;
+}
+
+.main__inner {
+    flex: 1 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+}
+
+.form__body {
+    display: flex;
+    flex-direction: column;
+    gap: 30px 0;
+}
+
+.X-input, .Y-input, .R-input {
+    display: flex;
+    align-items: center;
+    gap: 0 30px;
+}
+
+.form-checkbox {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+}
+
+.form-checkbox-style {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    border: 2px solid rgba(47, 255, 0, 0.4);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-checkbox:checked + .form-checkbox-style {
+    border: 2px solid #2FFF00;
+}
+
+.form-checkbox:checked + .form-checkbox-style:before {
+    content: '';
+    position: absolute;
+    transform: translate(2px, 2px);
+    width: 24px;
+    height: 24px;
+    border-radius: 2px;
+    background-color: #2FFF00;
+}
+
+.form-checkbox-text {
+    gap: 0 10px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+.form-input {
+    width: 150px;
+    height: 40px;
+    padding-left: 7px;
+}
+
+.form-input:focus {
+    border-color: #2FFF00;
+    outline: none;
+}
+
+.form-input::placeholder, .form-input, .form-submit {
+    font-family: "Courier New", monospace;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.form-input, .form-submit {
+    border: 2px solid rgba(47, 255, 0, 0.4);
+    border-radius: 4px;
+}
+
+.form-submit {
+    padding: 15px 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.form-submit:active {
+    border-color: #2FFF00;
+}
+
+.form-submit:disabled {
+    border-color: rgba(255, 0, 0, 0.4);
+}
+
+.graph {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+}
+
+.graph__axis, .graph__arrow, .graph__serif {
+    stroke: black;
+    stroke-width: 2px;
+}
+
+.graph__arrow {
+    fill: none;
+}
+
+.graph__figure {
+    fill: #2FFF00;
+    fill-opacity: 0.2;
+    stroke: #2FFF00;
+    stroke-width: 2px;
+}
+
+.graph__point {
+    fill: #0220FF;
+    fill-opacity: 0.2;
+    stroke: #0220FF;
+    stroke-width: 2px;
+}
+
+.archive {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px 0;
+}
+
+.archive__table {
+    position: relative;
+    table-layout: fixed;
+    border-collapse: separate;
+    border-spacing: 45px 10px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.footer {
+    flex: 0 0 auto;
+}
+
+.footer__inner {
+    text-align: center;
+    padding: 15px 0;
+}

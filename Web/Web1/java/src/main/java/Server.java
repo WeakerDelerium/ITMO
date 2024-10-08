@@ -41,11 +41,12 @@ public class Server {
                     sendResponse("HTTP/1.1 200 OK", "{\"hit\": \"%s\"}".formatted(hit ? 'Y' : 'N'));
                 } catch (NumberFormatException e) {
                     logger.warning("Invalid json");
+                    sendResponse("HTTP/1.1 401 Bad Request", "");
                 }
 
                 logger.info("Request has been processed");
             }
-            else logger.warning("Request method <> GET --> skip");
+            else sendResponse("HTTP/1.1 405 Method Not Allowed", "");
         }
     }
 

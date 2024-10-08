@@ -181,6 +181,15 @@ body {
     font-weight: 300;
 }
 
+.viperr {
+    width: 100%;
+    height: 100%;
+    background-image: url(/img/opium.webp);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    opacity: 0.3;
+}
+
 .footer {
     flex: 0 0 auto;
 }

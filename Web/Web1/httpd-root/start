@@ -1,2 +1,2 @@
 httpd -f ~/httpd-root/conf/httpd.conf -k start
-java -DFCGI_PORT=23051 -jar /home/studs/s408118/httpd-root/fcgi-bin/FCGIServer.jar
+java -DFCGI_PORT=24050 -jar /home/studs/s408118/httpd-root/fcgi-bin/FCGIServer.jar

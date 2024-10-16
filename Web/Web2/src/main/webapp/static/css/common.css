@@ -1,0 +1,43 @@
+html {
+    box-sizing: border-box;
+    min-height: 100vh;
+}
+
+*, *:after, *:before {
+    box-sizing: inherit;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1620px;
+    font-family: "Courier New", monospace;
+    font-size: 32px;
+    font-style: normal;
+    line-height: normal;
+    margin: 0 auto;
+    padding: 0 .7em;
+}
+
+.header, .footer {
+    background-color: #3D3D3D;
+    color: #FFFFFF;
+    flex: 0 0 auto;
+}
+
+.header__inner, .footer__inner {
+    padding: .55em 0;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer__inner {
+    text-align: center;
+}

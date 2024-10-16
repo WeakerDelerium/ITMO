@@ -1,0 +1,44 @@
+.archive, .archive .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5em 0;
+}
+
+.archive .container {
+    flex-grow: 1;
+}
+
+.archive:has(.container) {
+    margin: 3em 0;
+    flex: 1 0 auto;
+}
+
+.archive__table {
+    position: relative;
+    table-layout: fixed;
+    border-collapse: separate;
+    border-spacing: 1em .5em;
+}
+
+.archive:has(.container) .archive__table {
+    border-spacing: 3em .5em;
+}
+
+.archive__table, .archive__return {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.archive__return {
+    justify-self: flex-end;
+    font-family: "Courier New", monospace;
+    margin-top: auto;
+    padding: .55em 1em;
+    color: #000000;
+    text-decoration: none;
+    border: 2px solid rgba(47, 255, 0, 0.3);
+    border-radius: 4px;
+    outline: none;
+}

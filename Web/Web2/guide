@@ -1,0 +1,24 @@
+// Как настроить сервачок
+cp `wildfly.zip` `somewhere`
+unzip `wildfly.zip`
+
+// Меняем порты в конфиге
+vim `somewhere`/standalone/configuration/standalone.xml
+// Легче всего поменять offset (он почти в самом низу) на `port` - 8080 (или 9090 для админ консоли)
+
+// Добавляем юзера
+`somewhere`/bin/add_user.sh
+
+// Закидываем варник в деплой, если повтор
+scp `file.war` `somewhere`/`wildfly`/standalone/deployments
+
+// Запуск + на бекграунд задачу
+`somewhere`/bin/standalone.sh
+// если все ок, то ^Z (приостановили)
+jobs
+bg %1 (номер этого процесса, мб не 1)
+
+// Ченуть процесс - ps
+// Вернуть на форграунд - fg %`номер процесса`
+
+

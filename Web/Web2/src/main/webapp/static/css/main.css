@@ -1,0 +1,144 @@
+.main {
+    flex: 1 0 auto;
+    padding: 2em 0;
+}
+
+.main__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form, .form__body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5em 0;
+}
+
+.console {
+    display: none;
+    width: 100%;
+    margin: 0 auto;
+    padding: .55em 0;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.console.error {
+    display: block;
+    color: #FF2002;
+    border: 2px solid #FF2002;
+}
+
+.X-input, .Y-input, .R-input {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.form-list {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    gap: 1em;
+}
+
+.form-btn {
+    width: 3em;
+    height: 1.5em;
+    background-color: transparent;
+}
+
+.form-input, .form-select {
+    padding: 0.25em 0;
+}
+
+.form-input:focus, .form-select:focus {
+    border-color: #2FFF00;
+    outline: none;
+}
+
+.form-input::placeholder, .form-input,
+.form-btn, .form-select, .form-submit {
+    font-family: "Courier New", monospace;
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.form-btn, .form-btn:focus, .form-input, .form-select, .form-submit {
+    border: 2px solid rgba(47, 255, 0, 0.3);
+    border-radius: 4px;
+}
+
+.form-btn.selected {
+    border: 2px solid #2FFF00 !important;
+}
+
+.form-select.unselected {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.form-submit {
+    width: 100%;
+    padding: .55em 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.form-submit:active {
+    border-color: #2FFF00;
+}
+
+.form-submit:disabled {
+    border-color: rgba(255, 0, 0, 0.4);
+}
+
+.graph {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+}
+
+.graph__axis, .graph__arrow, .graph__serif, .graph__figure, .graph__point {
+    stroke: black;
+    stroke-width: 2px;
+}
+
+.graph__arrow {
+    fill: none;
+}
+
+.graph__figure {
+    fill: #2FFF00;
+    fill-opacity: 0.2;
+    stroke: #2FFF00;
+}
+
+.graph__point {
+    fill-opacity: 0.2;
+}
+
+.graph__point.in {
+    fill: #0220FF;
+    stroke: #0220FF;
+}
+
+.graph__point.out {
+    fill: #FF2002;
+    stroke: #FF2002;
+}
+
+.graph__point.resonance {
+    display: none;
+}
+
+.viperr {
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/opium.webp);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    opacity: 0.3;
+}

@@ -1,0 +1,44 @@
+@use "../../styles/functions" as funcs;
+@use "../../styles/color" as clr;
+
+.form, .field {
+    @include funcs.block($w: 100%);
+}
+
+.form, .auth, .point {
+    @include funcs.flex($fd: column, $gr: 0.75rem);
+}
+
+.point .form {
+    @include funcs.flex($fd: column, $gr: 1.5rem);
+}
+
+.point {
+    @include funcs.flex($fd: column, $gr: 1.5rem);
+}
+
+.header {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.field {
+    text-align: left;
+}
+
+.label {
+    font-size: 0.75rem;
+}
+
+.error {
+    @include funcs.block($w: 100%);
+    @include funcs.bordered($tc: var(--on-error-color), $bgc: var(--error-color), $br: 0.125rem, $pr: 0.25rem, $pc: 0.75rem);
+    text-align: center;
+    font-size: 0.75rem;
+    margin-bottom: -0.5rem;
+}
+
+.btn {
+    margin: 0.5rem 0;
+    border-radius: 0.25rem;
+}

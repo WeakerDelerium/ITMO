@@ -1,0 +1,101 @@
+@use "../../styles/variables" as vars;
+@use "../../styles/functions" as funcs;
+@use "../../styles/color" as clr;
+
+.wrapper {
+    @include funcs.block($w: 100%);
+    @include funcs.flex($fw: wrap, $jc: space-between, $ai: start);
+    margin: 4rem 0;
+}
+
+.error {
+    position: absolute;
+    @include funcs.square($t: 2rem, $l: 50%);
+    @include funcs.bordered($tc: var(--on-error-color), $bgc: var(--error-color), $br: 0.125rem, $pr: 0.25rem, $pc: 0.75rem);
+    transform: translate(-50%, -50%);
+}
+
+:root[light-theme] .fwrapper {
+    @include clr.surface-shadow(var(--on-surface-color), 24);
+}
+
+.fwrapper {
+    @include funcs.flex($fd: column, $jc: space-between, $ai: start, $gr: 2rem);
+    @include funcs.bordered($bgc: clr.get-surface-dp(var(--surface-color), 1), $br: 0.5rem, $pr: 1rem, $pc: 1.75rem);
+}
+
+.form {
+    @include funcs.flex($fd: column, $gr: 2rem);
+}
+
+.field {
+    @include funcs.block($w: 100%);
+    @include funcs.grid($gtc: auto 1fr, $ji: left, $gc: 2rem);
+}
+
+.number {
+    max-width: 10rem;
+}
+
+.plane {
+    @include funcs.flex;
+    @include funcs.font-styles($ff: vars.$font, $fz: 0.875rem);
+}
+
+.axis, .arrow, .serif, .figure, .point {
+    @include funcs.draw($s: var(--on-bg-color));
+}
+
+.label {
+    fill: clr.get-base-imp(var(--on-bg-color), medium);
+}
+
+.figure {
+    @include funcs.draw($f: clr.get-accent-imp(var(--secondary-color), low), $s: var(--secondary-color));
+}
+
+.in {
+    @include funcs.draw($f: clr.get-accent-imp(var(--primary-color), low), $s: var(--primary-color));
+}
+
+.out {
+    @include funcs.draw($f: clr.get-accent-imp(var(--error-color), low), $s: var(--error-color));
+}
+
+:root[light-theme] .twrapper {
+    @include clr.surface-shadow(var(--on-surface-color), 24);
+}
+
+.twrapper {
+    @include funcs.flex($fd: column, $jc: flex-start, $gc: .5rem);
+    @include funcs.bordered($bgc: clr.get-surface-dp(var(--surface-color), 1), $br: 0.5rem, $pr: 1rem, $pc: 1rem);
+    @include funcs.font-styles($ff: vars.$font);
+}
+
+.heading {
+    font-size: 1.5rem;
+}
+
+.table {
+    position: relative;
+    table-layout: fixed;
+    border-collapse: separate;
+    border-spacing: 1rem .5rem;
+    text-align: center;
+    font-size: 0.75rem;
+}
+
+.thead,  {
+    color: clr.get-base-imp(var(--on-bg-color), high);
+}
+
+.tbody {
+    color: clr.get-base-imp(var(--on-bg-color), medium);
+}
+
+@media (max-width: 1500px) {
+    .twrapper {
+        flex-basis: 100%;
+        margin: 0 auto;
+    }
+}

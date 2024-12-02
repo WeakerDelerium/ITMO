@@ -1,0 +1,57 @@
+@function get-color-level($map, $color, $level) {
+    $opacity: map-get($map, $level);
+    @return rgb(from $color r g b / $opacity);
+}
+
+$base-quality-map: (high: 0.87, medium: 0.6, low: 0.38);
+$accent-quality-map: (high: 1, medium: 0.74, low: 0.38);
+$dp-map: (0: 0.02, 1: 0.05, 2: 0.07, 3: 0.08, 4: 0.09,
+        6: 0.11, 8: 0.12, 12: 0.14, 16: 0.15, 24: 0.16);
+
+@function get-base-imp($color, $imp: low) {
+    @return get-color-level($base-quality-map, $color, $imp);
+}
+
+@function get-accent-imp($color, $imp: low) {
+    @return get-color-level($accent-quality-map, $color, $imp);
+}
+
+@function get-surface-dp($color, $dp: 0) {
+    @return get-color-level($dp-map, $color, $dp);
+}
+
+@mixin surface-shadow($color, $dp: 0) {
+    box-shadow: 0 1rem 2rem get-surface-dp($color, $dp);
+}
+
+@mixin theme($map) {
+    @each $key, $value in $map {
+        --#{$key}: #{$value};
+    }
+}
+
+$light: (
+        bg-color: #FFFFFF,
+        on-bg-color: #000000,
+        surface-color: #FFFFFF,
+        on-surface-color: #000000,
+        primary-color: #6200EE,
+        on-primary-color: #FFFFFF,
+        secondary-color: #03DAC6,
+        on-secondary-color: #000000,
+        error-color: #B00020,
+        on-error-color: #FFFFFF,
+);
+
+$dark: (
+        bg-color: #121212,
+        on-bg-color: rgb(255, 255, 255),
+        surface-color: rgb(255, 255, 255),
+        on-surface-color: #FFFFFF,
+        primary-color: #BB86FC,
+        on-primary-color: #000000,
+        secondary-color: #03DAC6,
+        on-secondary-color: #000000,
+        error-color: #CF6679,
+        on-error-color: #000000,
+);

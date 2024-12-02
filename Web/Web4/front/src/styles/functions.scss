@@ -1,0 +1,69 @@
+@mixin full-screen {
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+@mixin block($w: auto, $h: auto) {
+    width: $w;
+    height: $h;
+}
+
+@mixin square($t: auto, $r: auto, $b: auto, $l: auto) {
+    top: $t;
+    right: $r;
+    bottom: $b;
+    left: $l;
+}
+
+@mixin flex($fd: row, $fw: no-wrap, $jc: center, $ai: center, $gr: 0, $gc: 0) {
+    display: flex;
+    flex-wrap: $fw;
+    flex-direction: $fd;
+    justify-content: $jc;
+    align-items: $ai;
+    gap: $gr $gc;
+}
+
+@mixin grid($gtr: auto, $gtc: auto, $ai: center, $ji: center, $gr: 0, $gc: 0) {
+    display: grid;
+    grid-template: $gtr / $gtc;
+    align-items: $ai;
+    justify-items: $ji;
+    gap: $gr $gc;
+}
+
+@mixin font-styles($ff, $fz: 100%, $fw: 400, $fs: normal, $lh: normal, $ls: 0%) {
+    font-family: $ff, monospace;
+    font-size: $fz;
+    font-weight: $fw;
+    font-style: $fs;
+    line-height: $lh;
+    letter-spacing: $ls;
+}
+
+@mixin bordered($tc: transparent, $bgc: none, $bw: 0, $bc: transparent, $br: 0, $pr: 0, $pc: 0) {
+    color: $tc;
+    background-color: $bgc;
+    border: $bw solid $bc;
+    border-radius: $br;
+    padding: $pr $pc;
+}
+
+@mixin mask($mi: none, $mz: cover, $mr: no-repeat, $mp: center) {
+    -webkit-mask-size: $mz;
+            mask-size: $mz;
+    -webkit-mask-repeat: $mr;
+            mask-repeat: $mr;
+    -webkit-mask-position: $mp;
+            mask-position: $mp;
+}
+
+@mixin draw($f: none, $s: none, $sw: 0.075em) {
+    fill: $f;
+    stroke: $s;
+    stroke-width: $sw;
+}
+
+@mixin pointer {
+    cursor: pointer;
+}

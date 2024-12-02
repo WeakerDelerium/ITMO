@@ -1,0 +1,32 @@
+@use "functions" as funcs;
+@use "color" as clr;
+
+:root {
+
+    box-sizing: border-box;
+    @include funcs.full-screen;
+    font-size: 24px;
+
+    &[light-theme] {
+        @include clr.theme(clr.$light);
+    }
+
+    &[dark-theme] {
+        @include clr.theme(clr.$dark);
+    }
+
+}
+
+*, *:after, *:before {
+    box-sizing: inherit;
+}
+
+body, #root {
+    @include funcs.flex($fd: column);
+    @include funcs.full-screen;
+}
+
+#root {
+    flex: 1 0 auto;
+    background-color: var(--bg-color);
+}

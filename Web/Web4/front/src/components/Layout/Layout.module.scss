@@ -1,0 +1,57 @@
+@use "../../styles/variables" as vars;
+@use "../../styles/functions" as funcs;
+@use "../../styles/color" as clr;
+
+:root[light-theme] {
+    --header-text-color: var(--on-primary-color);
+    --header-bg-color: var(--primary-color);
+}
+
+:root[dark-theme] {
+    --header-text-color: #{clr.get-base-imp(var(--on-bg-color), high)};
+    --header-bg-color: #{clr.get-surface-dp(var(--surface-color), 1)};
+}
+
+.container {
+    max-width: 1620px;
+    @include funcs.flex;
+    flex-grow: 1;
+    @include funcs.font-styles(vars.$font);
+    margin: 0 auto;
+    padding: 0 .7em;
+}
+
+.header, .footer {
+
+    min-width: 100vw;
+    flex: 0 0 auto;
+    background-color: var(--header-bg-color);
+
+    &__inner {
+
+        @include funcs.flex($jc: space-around);
+        flex-grow: 1;
+        text-align: center;
+        padding: .55em 0;
+
+        & * {
+            color: var(--header-text-color);
+        }
+
+    }
+
+}
+
+.content {
+
+    position: relative;
+    min-width: 100vw;
+    @include funcs.flex;
+    flex: 1 0 auto;
+
+    &__inner {
+        @include funcs.flex($fd: column, $jc: space-around);
+        flex-grow: 1;
+    }
+
+}

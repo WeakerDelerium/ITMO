@@ -1,0 +1,23 @@
+@use "../../styles/variables" as vars;
+@use "../../styles/functions" as funcs;
+
+.wrapper {
+    @include funcs.block($w: 80%);
+    @include funcs.grid($gtr: repeat(2, auto), $gtc: repeat(2, 1fr), $gr: .75em, $gc: 3em);
+}
+
+.greeting {
+    grid-column: 1 / span 2;
+    font-size: 2rem;
+}
+
+.btn {
+    @include funcs.block($w: 50%);
+    padding: .55rem;
+    justify-self: right;
+    border-radius: 1rem;
+}
+
+.btn:last-child {
+    justify-self: left;
+}

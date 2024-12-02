@@ -1,0 +1,26 @@
+@use "../../styles/variables" as vars;
+@use "../../styles/functions" as funcs;
+@use "../../styles/color" as clr;
+
+.wrapper {
+    @include funcs.block($w: 100%);
+    @include funcs.flex($jc: space-evenly, $gr: 0.05rem);
+}
+
+.text, .link, .span {
+    @include funcs.font-styles($ff: vars.$font);
+}
+
+.heading {
+    @include funcs.font-styles($ff: vars.$font, $fw: 700);
+    color: clr.get-base-imp(var(--on-surface-color), high);
+}
+
+.text, .span {
+    color: clr.get-base-imp(var(--on-surface-color), medium);
+}
+
+.link {
+    color: clr.get-accent-imp(var(--secondary-color), high);
+    text-decoration: none;
+}

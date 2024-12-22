@@ -1,0 +1,45 @@
+@use "../../styles/functions" as funcs;
+@use "../../styles/color" as clr;
+
+:root {
+
+    --auth-vsf1-color: #{clr.get-dp(var(--surface-color), 1)};
+
+    &[light-theme] .wrapper {
+        @include clr.shadow(var(--on-surface-color), 24);
+    }
+
+}
+
+.wrapper {
+    @include funcs.flex($fd: column, $gr: 0.5rem);
+    @include funcs.bordered($bgc: var(--auth-vsf1-color), $br: 0.5rem, $pr: 1rem, $pc: 2rem);
+}
+
+.return {
+    position: absolute;
+    @include funcs.block(1.5rem, 1.5rem);
+    @include funcs.square($t: 2rem, $l: 2rem);
+}
+
+@media (max-width: 1024px) {
+
+    .wrapper {
+        gap: 0.3rem 0;
+    }
+
+    .return {
+        @include funcs.block(1rem, 1rem);
+        @include funcs.square($t: 1rem, $l: 1rem);
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .return {
+        @include funcs.block(0.5rem, 0.5rem);
+        @include funcs.square($t: 0.5rem, $l: 0.5rem);
+    }
+
+}

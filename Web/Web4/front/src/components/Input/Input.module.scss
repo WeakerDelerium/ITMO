@@ -1,0 +1,101 @@
+@use "../../styles/variables" as vars;
+@use "../../styles/functions" as funcs;
+@use "../../styles/color" as clr;
+
+:root {
+    --input-vprh-color: #{clr.get-accent-imp(var(--primary-color), high)};
+    --input-vprm-color: #{clr.get-accent-imp(var(--primary-color), medium)};
+    --input-vprl-color: #{clr.get-accent-imp(var(--primary-color), low)};
+}
+
+.wrapper {
+    position: relative;
+    @include funcs.block($w: 100%);
+    @include funcs.flex($fd: column);
+}
+
+.input {
+
+    @include funcs.block(100%, 1.5em);
+    @include funcs.bordered($tc: var(--input-vprh-color), $bw: .075rem, $bc: var(--input-vprl-color), $br: 0.125rem, $pr: .75rem, $pc: .25rem);
+    transition: all 0.25s ease-in-out;
+    @include funcs.font-styles($ff: vars.$font);
+    padding-right: 1.75rem;
+
+    &:hover {
+        border-color: var(--input-vprm-color);
+    }
+
+    &:focus {
+        transform: scale(1.025);
+        @include clr.shadow(var(--primary-color), 3);
+        border-color: var(--input-vprh-color);
+    }
+
+}
+
+.eye {
+    position: absolute;
+    @include funcs.block(1rem, 1rem);
+    @include funcs.square($t: 50%, $r: 0);
+    transform: translate(-25%, -50%);
+}
+
+.icon {
+    @include funcs.mask($mz: auto);
+}
+
+.meter {
+    @include funcs.block($w: 100%);
+    @include funcs.grid($gtc: 70% 30%);
+}
+
+.bar {
+    @include funcs.block(100%, 0.25rem);
+    @include funcs.bordered($bgc: var(--input-vprl-color), $br: 0.125rem);
+}
+
+.fill {
+    @include funcs.block($h: 100%);
+    @include funcs.bordered($bgc: var(--input-vprh-color), $br: 0.125rem);
+    transition: width 0.5s ease-in-out;
+}
+
+.diff {
+    font-size: 0.6rem;
+    color: var(--input-vprm-color);
+}
+
+@media (max-width: 768px) {
+
+    .input {
+        padding: 0.6rem 0.25rem;
+        font-size: 0.75rem;
+    }
+
+    .bar {
+        @include funcs.block(100%, 0.2em);
+    }
+
+    .diff {
+        font-size: 0.45rem;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .input {
+        padding: 0.5rem 0.25rem;
+        font-size: 0.75rem;
+    }
+
+    .bar {
+        @include funcs.block(100%, 0.15em);
+    }
+
+    .diff {
+        font-size: 0.3rem;
+    }
+
+}

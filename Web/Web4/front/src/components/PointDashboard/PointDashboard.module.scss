@@ -1,0 +1,207 @@
+@use "../../styles/variables" as vars;
+@use "../../styles/functions" as funcs;
+@use "../../styles/color" as clr;
+@use "../../styles/animation" as *;
+
+:root {
+
+    --pd-tbgh-color: #{clr.get-base-imp(var(--on-bg-color), high)};
+    --pd-tbgm-color: #{clr.get-base-imp(var(--on-bg-color), medium)};
+    --pd-tbgl-color: #{clr.get-base-imp(var(--on-bg-color), low)};
+
+    --pd-tsfh-color: #{clr.get-base-imp(var(--on-surface-color), high)};
+    --pd-tsfm-color: #{clr.get-base-imp(var(--on-surface-color), medium)};
+
+    --pd-vprh-color: #{clr.get-accent-imp(var(--primary-color), high)};
+    --pd-vprl-color: #{clr.get-accent-imp(var(--primary-color), low)};
+
+    --pd-vsch-color: #{clr.get-accent-imp(var(--secondary-color), high)};
+    --pd-vscl-color: #{clr.get-accent-imp(var(--secondary-color), low)};
+
+    --pd-verh-color: #{clr.get-accent-imp(var(--error-color), high)};
+    --pd-verl-color: #{clr.get-accent-imp(var(--error-color), low)};
+    --pd-terh-color: #{clr.get-base-imp(var(--on-error-color), high)};
+
+    --pd-vsf1-color: #{clr.get-dp(var(--surface-color), 1)};
+
+    &[light-theme] {
+        .fwrapper, .twrapper {
+            @include clr.shadow(var(--on-surface-color), 24);
+        }
+    }
+
+}
+
+.wrapper {
+    @include funcs.block($w: 100%);
+    @include funcs.flex($jc: space-between, $ai: start);
+    margin: 5rem 0;
+}
+
+.error {
+    position: absolute;
+    @include funcs.square($t: 2.5rem, $l: 50%);
+    @include funcs.bordered($tc: var(--pd-terh-color), $bgc: var(--pd-verh-color), $br: 0.125rem, $pr: 0.25rem, $pc: 0.75rem);
+    transform: translate(-50%, -50%);
+    transform-origin: top;
+    animation: scaled 0.25s forwards;
+}
+
+.fwrapper {
+
+    @include funcs.flex($fd: column, $jc: space-between, $ai: start, $gr: 2.5rem);
+    @include funcs.bordered($bgc: var(--pd-vsf1-color), $br: 0.5rem, $pr: 1rem, $pc: 1.75rem);
+
+    .form {
+        @include funcs.flex($fd: column, $gr: 2.5rem);
+    }
+
+    .field {
+        @include funcs.block($w: 100%);
+        @include funcs.grid($gtc: auto 1fr, $ji: left, $gc: 2rem);
+    }
+
+    .number {
+        max-width: 10rem;
+    }
+
+}
+
+.plane {
+
+    @include funcs.flex;
+    @include funcs.block(100%, 100%);
+    @include funcs.font-styles($ff: vars.$font, $fz: 0.875rem);
+
+    .lhatch {
+        @include funcs.draw($s: var(--pd-verh-color));
+    }
+
+    .fhatch {
+        @include funcs.draw($s: var(--pd-vprl-color));
+    }
+
+    .axis, .arrow, .serif, .point {
+        @include funcs.draw($s: var(--pd-tbgh-color));
+    }
+
+    .label {
+        @include funcs.draw($f: var(--pd-tbgm-color))
+    }
+
+    .limit {
+        @include funcs.draw($f: url(#limit-hatch));
+    }
+
+    .figure {
+        @include funcs.draw($f: url(#figure-hatch), $s: var(--pd-vprh-color));
+    }
+
+    .in {
+        @include funcs.draw($f: var(--pd-vscl-color), $s: var(--pd-vsch-color));
+    }
+
+    .out {
+        @include funcs.draw($f: var(--pd-verl-color), $s: var(--pd-verh-color));
+    }
+
+    .inactive {
+        opacity: 0.3;
+    }
+
+}
+
+.twrapper {
+
+    @include funcs.flex($fd: column, $jc: flex-start, $gc: .5rem);
+    @include funcs.bordered($bgc: var(--pd-vsf1-color), $br: 0.5rem, $pr: 1rem, $pc: 1rem);
+    @include funcs.font-styles($ff: vars.$font);
+    transition: all 0.25s ease-in-out;
+    overflow: hidden auto;
+
+    .heading {
+        font-size: 1.5rem;
+    }
+
+    .table {
+        position: relative;
+        table-layout: fixed;
+        border-collapse: separate;
+        border-spacing: 1rem .5rem;
+        text-align: center;
+        font-size: 0.75rem;
+    }
+
+    .thead  {
+        color: var(--pd-tsfh-color);
+    }
+
+    .tbody {
+        color: var(--pd-tsfm-color);
+    }
+
+}
+
+@media (max-width: 1600px) {
+
+    .wrapper {
+        @include funcs.block($w: 100%);
+        @include funcs.flex($fw: wrap, $jc: space-evenly, $ai: start, $gr: 3rem);
+        margin-bottom: 3rem;
+    }
+
+    .twrapper {
+        flex-basis: 100%;
+        margin: 0 auto;
+    }
+
+}
+
+@media (max-width: 1200px) {
+    .fwrapper, .fwrapper .form {
+        gap: 1.5rem 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .fwrapper .number {
+        max-width: 7.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .fwrapper {
+
+        &, & .form {
+            gap: 1rem 0;
+        }
+
+        .field {
+            gap: 1rem;
+        }
+
+        .number {
+            max-width: 5.25rem;
+        }
+
+        .btn {
+            font-size: 0.75rem;
+            border-radius: 0.5rem;
+        }
+
+    }
+
+    .twrapper {
+
+        .heading {
+            font-size: 1rem;
+        }
+
+        .thead, .tbody {
+            font-size: 0.5rem;
+        }
+
+    }
+
+}

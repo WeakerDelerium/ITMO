@@ -1,0 +1,34 @@
+@use "../../styles/functions" as funcs;
+
+.content {
+    align-items: start;
+}
+
+.wrapper {
+    @include funcs.block($w: 100%);
+    flex-grow: 1;
+}
+
+.return {
+    position: absolute;
+    @include funcs.block(1.5rem, 1.5rem);
+    @include funcs.square($t: 2rem, $l: 2rem);
+}
+
+@media (max-width: 1024px) {
+
+    .return {
+        @include funcs.block(1rem, 1rem);
+        @include funcs.square($t: 1rem, $l: 1rem);
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .return {
+        @include funcs.block(0.5rem, 0.5rem);
+        @include funcs.square($t: 0.5rem, $l: 0.5rem);
+    }
+
+}

@@ -1,0 +1,29 @@
+@keyframes expand {
+
+    0% {
+        max-height: 0;
+        transform: scaleY(0);
+        opacity: 0;
+    }
+
+    100% {
+        max-height: 1.5rem;
+        transform: scaleY(1);
+        opacity: 1;
+    }
+
+}
+
+@keyframes scaled {
+
+    0% {
+        scale: 1 0;
+        opacity: 0;
+    }
+
+    100% {
+        scale: 1 1;
+        opacity: 1;
+    }
+
+}

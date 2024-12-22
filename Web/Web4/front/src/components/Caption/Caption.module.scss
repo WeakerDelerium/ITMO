@@ -1,0 +1,60 @@
+@use "../../styles/variables" as vars;
+@use "../../styles/functions" as funcs;
+@use "../../styles/color" as clr;
+
+:root {
+    --caption-tsfh-color: #{clr.get-base-imp(var(--on-surface-color), high)};
+    --caption-tsfm-color: #{clr.get-base-imp(var(--on-surface-color), medium)};
+    --caption-vsch-color: #{clr.get-accent-imp(var(--secondary-color), high)};
+}
+
+.wrapper {
+    @include funcs.block($w: 100%);
+    @include funcs.flex($jc: space-evenly, $gr: 0.05rem);
+}
+
+.heading, .text, .link, .span {
+    @include funcs.font-styles($ff: vars.$font);
+}
+
+.heading {
+    color: var(--caption-tsfh-color);
+    font-weight: 700;
+}
+
+.text, .span {
+    color: var(--caption-tsfm-color);
+}
+
+.link {
+
+    position: relative;
+    color: var(--caption-vsch-color);
+    text-decoration: none;
+
+    &:after {
+        content: "";
+        position: absolute;
+        @include funcs.block(0, 0.075rem);
+        @include funcs.square($l: 0, $b: 0);
+        background-color: var(--caption-vsch-color);
+        transition: all 0.33s ease-in-out;
+    }
+
+    &:hover:after {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .heading, .text, .link, .span {
+        font-size: 0.75rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .heading, .text, .link, .span {
+        font-size: 0.5rem;
+    }
+}

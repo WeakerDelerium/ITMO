@@ -1,0 +1,24 @@
+@use "functions" as funcs;
+@use "color" as clr;
+
+:root {
+    --scroll-vbgh-color: #{clr.get-accent-imp(var(--bg-color), high)};
+    --scroll-vprh-color: #{clr.get-accent-imp(var(--primary-color), high)};
+    --scroll-vprl-color: #{clr.get-accent-imp(var(--primary-color), low)};
+}
+
+::-webkit-scrollbar {
+
+    @include funcs.block(0.125rem, 0.125rem);
+    background-color: var(--scroll-vbgh-color);
+
+    &-thumb {
+        background-color: var(--scroll-vprh-color);
+    }
+
+    &-track {
+        background-color: var(--scroll-vprl-color);
+    }
+
+}
+

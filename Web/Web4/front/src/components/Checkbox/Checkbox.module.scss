@@ -1,0 +1,106 @@
+@use "../../styles/functions" as funcs;
+@use "../../styles/color" as clr;
+
+:root {
+    --chbox-vprh-color: #{clr.get-accent-imp(var(--primary-color), high)};
+    --chbox-vprm-color: #{clr.get-accent-imp(var(--primary-color), medium)};
+    --chbox-vprl-color: #{clr.get-accent-imp(var(--primary-color), low)};
+}
+
+.group {
+    @include funcs.grid($ji: start,$gr: 2rem, $gc: 1.5rem);
+}
+
+.item {
+    position: relative;
+}
+
+.checkbox {
+
+    position: absolute;
+    @include funcs.block(1px, 1px);
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+
+    &:checked + .style {
+
+        @include clr.shadow(var(--primary-color), 8);
+        border-color: var(--chbox-vprh-color);
+
+        &:before {
+            content: '';
+            position: absolute;
+            @include funcs.block(0.75rem, 0.75rem);
+            @include funcs.bordered($bgc: var(--chbox-vprh-color), $br: 0.075rem);
+            @include funcs.square($t: 50%, $l: 50%);
+            transform: translate(-50%, -50%);
+        }
+
+    }
+
+}
+
+.style {
+
+    position: absolute;
+    @include funcs.block(1rem, 1rem);
+    @include funcs.square($t: 50%, $l: 0);
+    transform: translateY(-50%);
+    @include funcs.bordered($bw: 0.05rem, $bc: var(--chbox-vprl-color), $br: 0.125rem);
+    transition: all 0.25s ease-in-out;
+    @include funcs.pointer;
+
+    &:hover {
+        @include clr.shadow(var(--primary-color), 3);
+        border-color: var(--chbox-vprm-color);
+    }
+
+}
+
+.text {
+    margin-left: 1.5rem;
+    @include funcs.pointer;
+}
+
+@media (max-width: 768px) {
+
+    .group {
+        gap: 1.5rem 1rem;
+    }
+
+    .style {
+        @include funcs.square($t: 50%, $l: 0);
+        transform: translateY(-50%);
+        @include funcs.block(0.75rem, 0.75rem);
+    }
+
+    .checkbox:checked + .style:before {
+        @include funcs.block(0.6rem, 0.6rem);
+    }
+
+    .text {
+        margin-left: 1.15rem;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .group {
+        gap: 0.75rem 0.75rem;
+    }
+
+    .style {
+        @include funcs.block(0.6rem, 0.6rem);
+    }
+
+    .checkbox:checked + .style:before {
+        @include funcs.block(0.43rem, 0.43rem);
+    }
+
+    .text {
+        margin-left: 0.8rem;
+    }
+
+}
+
